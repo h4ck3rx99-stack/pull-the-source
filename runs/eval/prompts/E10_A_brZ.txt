@@ -1,0 +1,47 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Omar should buy the Pacer V3 running watch."
+
+Omar's requirements
+R1. Its battery must last at least 20 hours in GPS mode.
+R2. It must be water resistant to at least 50 m.
+R3. It must have built-in GPS.
+
+Sources (all currently valid)
+S1. Product page: the Pacer V3 has a built-in GPS receiver and does not need a phone.
+S2. Product page: the separate Pacer V3 Dive model is rated water resistant to 100 m.
+S3. Retailer listing: the Pacer V3 strap comes in three colours.
+S4. Lab test report: the Pacer V3 ran for 26 hours in GPS mode.
+S5. Specification sheet: the Pacer V3 is rated water resistant to 50 m (5 ATM).
+S6. Independent review: the Pacer V3 lasted 24 hours with GPS on.
+
+Output format
+Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Justification:
+R1 (battery at least 20 hours in GPS mode) is established for the Pacer V3 by S4, the lab test report, which records 26 hours in GPS mode. S6, the independent review, also records 24 hours with GPS on, which is consistent with this but not needed for the decision.
+R2 (water resistance of at least 50 m) is established by S5, the specification sheet, which rates the Pacer V3 at 50 m (5 ATM). This meets the threshold exactly. S2 gives 100 m but concerns the separate Pacer V3 Dive model, so it does not count.
+R3 (built-in GPS) is established by S1, the product page, which states the Pacer V3 has a built-in GPS receiver. S3 is irrelevant to the requirements.
+No source has been withdrawn, so all cited sources are currently valid. Every requirement is established for the exact product named, so the recommendation is supported.
+
+RELIES_ON: S1,S4,S5
+DECISION: Supported
+
+----- USER -----
+Update: source S5 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules and give your current decision in the same output format.

@@ -1,0 +1,20 @@
+Updated dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Floor at least 128 cm wide | S2 (withdrawn; S6 is for the Halden 3, a different model, so it cannot be used) | No. S2 is withdrawn and no longer usable as evidence. |
+| R2. Two doors | S3 | Yes |
+| R3. Packed weight under 2.5 kg | S4 (S1 also gives 2.3 kg for the exact Halden 2 and would also suffice) | Yes |
+
+Justification
+
+R1 is no longer established. Its only source for the Halden 2 floor width was S2, which has been withdrawn. Withdrawal does not show that S2 was false, but it means S2 cannot be used as evidence. S6 gives 180 cm for the Halden 3, a different model, so it cannot establish anything about the Halden 2. No other currently valid source states or measures the Halden 2 floor width (S1, S3, S4 and S5 do not address it).
+
+The evidence does not show R1 is unmet either. No currently valid source gives a Halden 2 floor narrower than 128 cm, so the requirement is neither established nor contradicted. That makes this an Insufficient evidence case rather than Contradicted.
+
+R2 and R3 remain established by currently valid sources for the exact Halden 2, but the recommendation needs all three requirements, so the missing R1 evidence decides the outcome.
+
+The decision rests on the absence of any currently valid source establishing R1, not on a specific source supporting it. S2 is excluded.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

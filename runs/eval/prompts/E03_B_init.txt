@@ -1,0 +1,32 @@
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Priya should buy the Lumet Arc desk lamp."
+
+Priya's requirements
+R1. Its arm must reach at least 40 cm.
+R2. It must have a USB-C charging port.
+R3. Its colour temperature must be adjustable down to 2700 K.
+
+Sources (all currently valid)
+S1. Specification sheet: the Lumet Arc arm extends to 46 cm.
+S2. Independent review: we measured the Lumet Arc at 2700 K on its warmest setting.
+S3. Specification sheet: the Lumet Arc colour temperature adjusts from 2700 K to 6000 K.
+S4. Product page: the base of the Lumet Arc has one USB-C charging port (15 W).
+S5. Product page: the Lumet Arc Pro has two USB-C charging ports.
+S6. Warranty card: the Lumet Arc carries a two-year warranty.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>

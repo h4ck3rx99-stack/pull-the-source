@@ -1,0 +1,17 @@
+Dependency table (updated for S3 withdrawal)
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1. Leak-proof | S3 | No (S3 is withdrawn and is no longer usable as evidence). No other currently valid source establishes leak-proofing: S4 is vague and does not count, and no other source reports a leak test.
+R2. Fits a standard 7.5 cm cup holder | S1 | Yes (S1 is a retailer test on the Riva 750 and is currently valid)
+R3. Holds at least 700 ml | S6 | Yes (S6 is a specification sheet for the Riva 750 and is currently valid)
+
+Justification
+
+R1 is no longer established. Its only supporting source, S3, has been withdrawn, and withdrawal removes S3 as evidence. The withdrawal does not show that S3's test result was false, so it cannot be used to label R1 as contradicted. No remaining currently valid source explicitly shows that the Riva 750 leaks: S5 reports a fill volume only, and S2 and S4 say nothing about leakage. So R1 is neither established nor contradicted.
+
+R2 remains established by S1, which states directly that the Riva 750 fits a standard 7.5 cm cup holder. R3 remains established by S6, which states the Riva 750 holds 750 ml, which meets the 700 ml threshold by simple comparison. S5 (740 ml poured) still meets the threshold too, but it is not needed.
+
+Because R1 is not established, the recommendation is not Supported. No currently valid source shows that a requirement is not met, so it is not Contradicted. The label is therefore Insufficient evidence. This label does not depend on S1 or S6: removing them would still leave R1 unestablished, so neither is a basis for the decision.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

@@ -1,0 +1,20 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Battery at least 20 hours in GPS mode | S4 (lab test: 26 hours in GPS mode, Pacer V3) | Yes |
+| R2. Water resistant to at least 50 m | S5 (specification sheet: rated 50 m, 5 ATM, Pacer V3) | Yes |
+| R3. Built-in GPS | S1 (product page: Pacer V3 has a built-in GPS receiver) | Yes |
+
+Justification
+
+R1: S4 is a lab test on the Pacer V3 itself, reporting 26 hours in GPS mode. 26 is at least 20, so the threshold is met by simple comparison. S6 (24 hours with GPS on) would also meet it, but it is not needed for the decision.
+
+R2: S5 is the specification sheet for the Pacer V3 and rates it at 50 m. 50 is at least 50, so the threshold is met. S2 is not used: it rates the separate Pacer V3 Dive model to 100 m, which is a different product and does not establish anything about the Pacer V3.
+
+R3: S1 is the Pacer V3 product page and states that it has a built-in GPS receiver. This directly establishes the requirement.
+
+S3 (strap colours) bears on none of the requirements. All cited sources are stated to be currently valid, so every requirement is established for the exact product named in the recommendation. Nothing in the supplied sources shows a requirement is not met, so the label is Supported.
+
+RELIES_ON: S1,S4,S5
+DECISION: Supported

@@ -1,0 +1,14 @@
+Dependency table (updated after S5 withdrawal)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Must include a rain cover | S4 | Yes. S4 is still a currently valid packing list stating that every Tarn 28 ships with a detachable rain cover. S5 is withdrawn, but it does not bear on this requirement. |
+| R2. Must weigh under 1.2 kg | S1 | Yes. S1 is still a currently valid independent review giving a measured weight of 1.08 kg for the Tarn 28, which is below 1.2 kg. |
+| R3. Must fit a 16-inch laptop | S2 | Yes. S2 is still a currently valid retailer measurement stating the Tarn 28 laptop sleeve accepts laptops up to 16.2 inches, which covers a 16-inch laptop. |
+
+Decision
+
+The withdrawal of S5 changes nothing. S5 concerns a sternum strap with a built-in whistle and was never relied on for any requirement. The decision still depends only on S1, S2 and S4, and all three remain currently valid. R1 is stated directly by S4 for the Tarn 28. R2 is established by a specific measurement (1.08 kg) for the exact product that meets the 1.2 kg threshold by simple comparison. R3 is established by a specific measurement (16.2 inch maximum sleeve capacity) for the exact product that covers 16 inches. S3 ("laptop-friendly") is vague and is not relied on. S6 (1.05 kg) would also meet R2 but is not needed. No source contradicts any requirement. Every requirement is established by currently valid sources, so the recommendation remains supported.
+
+RELIES_ON: S1,S2,S4
+DECISION: Supported

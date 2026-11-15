@@ -1,0 +1,4 @@
+Justification: With S1 withdrawn, it can no longer be used as evidence, but the earlier decision did not rely on it. R1 is still established for the Halden 2 by S2 (specification sheet), which gives a floor width of 132 cm, at least 128 cm. R2 is still established by S3 (product page), which states the Halden 2 has two doors, one on each side. R3 is still established by S4 (specification sheet), which gives a packed weight of 2.2 kg, under 2.5 kg. S5 (stuff sack colour) and S6 (Halden 3 floor) do not bear on any requirement for the Halden 2. No currently valid source shows a requirement is unmet, so the recommendation remains supported.
+
+RELIES_ON: S2, S3, S4
+DECISION: Supported

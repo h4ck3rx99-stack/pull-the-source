@@ -1,0 +1,22 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Quieter than 90 dB at top speed | S5 | Yes |
+| R2. Jar holds at least 1.5 litres | S3 | Yes |
+| R3. Jar is dishwasher-safe | S2 | Yes |
+
+S6 has been withdrawn, but no requirement depends on it, so the table is unchanged by the withdrawal.
+
+Justification
+
+R1: The lab report records 86 dB at top speed for the Pulso 600 itself. Since 86 is below the 90 dB ceiling, the requirement is met by simple comparison. S5 alone carries this requirement.
+
+R2: The specification sheet gives the Pulso 600 jar capacity as 1.75 litres, which clears the 1.5-litre minimum. S3 alone carries this requirement. The 1.7-litre fill in S4 is consistent with it but is not needed.
+
+R3: The user manual says the jar and lid are dishwasher-safe on the top rack, which meets the requirement as written. S1's "easy to clean" wording is too vague to establish dishwasher safety, so it is not used.
+
+All three requirements are established for the named product by currently valid sources, and no currently valid source shows that a requirement is unmet. The withdrawal of S6 changes nothing, because S6 never supported any requirement. The decision is therefore still Supported.
+
+RELIES_ON: S2,S3,S5
+DECISION: Supported

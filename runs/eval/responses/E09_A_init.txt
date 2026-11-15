@@ -1,0 +1,4 @@
+Justification: Each of Ines's three requirements is established for the Mola G1 by a currently valid source that names that product. R1 (grind timer) is met by S6, which describes a grind timer adjustable from 5 to 60 seconds. R2 (hopper of at least 200 g) is met by S1, which gives a hopper capacity of 250 g, and 250 is above the 200 g threshold. R3 (grind fine enough for espresso) is met by S2, where the lab test records an espresso-fine grind at setting 3 that pulled a standard espresso shot. S3 (box wording "for every brew style") is vague and does not establish R3 on its own. S4 concerns colour and says nothing about the requirements. S5 reports loading 240 g, which is not a capacity claim, but it is consistent with S1 and does not contradict any requirement. No currently valid source shows a requirement is unmet, so the recommendation is supported.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported

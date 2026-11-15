@@ -1,0 +1,60 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Ines should buy the Mola G1 coffee grinder."
+
+Ines's requirements
+R1. It must have a grind timer.
+R2. Its hopper must hold at least 200 g of beans.
+R3. It must grind fine enough for espresso.
+
+Sources (all currently valid)
+S1. Specification sheet: the Mola G1 hopper holds 250 g of beans.
+S2. Lab test report: at setting 3 the Mola G1 produced an espresso-fine grind that pulled a standard espresso shot.
+S3. Packaging text: the Mola G1 box says 'for every brew style'.
+S4. Retailer listing: the Mola G1 is available in matte white.
+S5. Independent review: we loaded 240 g of beans into the Mola G1 hopper.
+S6. User manual: the Mola G1 has a grind timer adjustable from 5 to 60 seconds.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Grind timer | S6 | Yes |
+| R2. Hopper holds at least 200 g | S1 | Yes |
+| R3. Grinds fine enough for espresso | S2 | Yes |
+
+Justification
+
+R1 is established directly for the Mola G1. The user manual (S6) states that the grind timer is adjustable from 5 to 60 seconds, so the product has a grind timer.
+
+R2 is established by a specific measurement that clears the threshold by simple comparison. The specification sheet (S1) gives the Mola G1 hopper capacity as 250 g, which is at least 200 g. The independent review (S5) reports loading 240 g, which is consistent with this but is not needed for the decision.
+
+R3 is established by a lab test result for the Mola G1 itself. At setting 3 it produced an espresso-fine grind that pulled a standard espresso shot (S2).
+
+S3 ("for every brew style") is vague packaging copy and is not relied on. S4 (matte white finish) concerns no requirement. No currently valid source shows any requirement is unmet, so the answer is not Contradicted. Every requirement is established by currently valid sources for the exact product named, so the answer is Supported.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported
+
+----- USER -----
+Update: source S1 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules. Update your dependency table first, then give your current decision in the same output format.

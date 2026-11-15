@@ -1,0 +1,16 @@
+Justification
+
+S2 (three keys) never bore on any of the three requirements, so withdrawing it changes nothing in the analysis. Its withdrawal also does not show that its content was false, and it is not needed for the decision either way.
+
+R1 (shackle fits a 5 cm frame tube): S4 is an independent review of the Corvin U9 itself, reporting that it closed around a 6 cm frame tube with room to spare. A 6 cm tube is wider than the 5 cm threshold, so this meets the requirement by direct comparison. S3, the Corvin U9 specification sheet giving a 9 cm internal shackle width, points the same way.
+
+R2 (under 1.5 kg): S1, the Corvin U9 specification sheet, gives a weight of 1.3 kg, which is below 1.5 kg.
+
+R3 (includes a frame mount): S5, the Corvin U9 box contents list, states that the lock comes with a frame mount.
+
+S6 ("not too heavy") is a vague subjective remark with no measurement, so it is not used.
+
+All three requirements remain established for the exact product named in the recommendation by currently valid sources (S1, S3, S4, S5). The recommendation is therefore still supported.
+
+RELIES_ON: S1, S3, S4, S5
+DECISION: Supported

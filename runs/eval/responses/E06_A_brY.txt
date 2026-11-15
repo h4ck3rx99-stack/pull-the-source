@@ -1,0 +1,4 @@
+Justification: With S5 withdrawn, no currently valid source establishes R1 (wired 3.5 mm connection) for the Sonvia H40. S1 states that the earlier H30 had a 3.5 mm jack, but it concerns a different model and cannot establish a requirement for the H40. S2 (companion app equaliser) bears on no requirement. R2 remains established by S6, and R3 remains established by S3 and S4, since both exceed 30 hours for the H40. No currently valid source shows that R1 is unmet, so the result is insufficient evidence rather than contradiction. Withdrawal of S5 does not show that its content was false; it only removes it as usable evidence.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

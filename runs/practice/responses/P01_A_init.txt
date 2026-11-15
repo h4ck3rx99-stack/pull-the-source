@@ -1,0 +1,8 @@
+Justification: All three requirements are established for the Riva 750 by currently valid sources.
+R1 (leak-proof): S3, a lab test report, says the Riva 750 did not leak when shaken upside down for ten minutes. This is a specific test result for the exact product that meets the leak-proof requirement. It is a single, narrow test, but the rules do not require more.
+R2 (fits a standard 7.5 cm cup holder): S1, a retailer test, says the Riva 750 fits a standard 7.5 cm cup holder. This states the requirement directly.
+R3 (at least 700 ml): S6, the specification sheet, says the Riva 750 holds 750 ml. 750 ml is at least 700 ml by simple comparison. S5 (740 ml poured in) also meets the threshold but is not needed for the decision.
+S2 (four colours) and S4 (advertising slogan) do not bear on any requirement.
+
+RELIES_ON: S1, S3, S6
+DECISION: Supported

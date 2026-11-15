@@ -1,0 +1,18 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Quieter than 40 dB on lowest setting | S3 | Yes. S3 is currently valid. |
+| R2. Must oscillate | S1, S5 | Yes. Both S1 and S5 are currently valid. |
+| R3. Must have a timer | S2 | Yes. S2 is currently valid. |
+
+Justification
+
+R1 is not met. The only source that addresses noise on the lowest setting for the exact product, the Vento S, is the lab test report S3. It is currently valid and records 47 dB on its lowest setting, which is above the 40 dB limit, so it explicitly shows that R1 is not met. S6 ("whisper quiet") is a brand advertisement with no measurement, so it cannot establish or contradict a dB threshold and is not relied on.
+
+R2 and R3 are met, but this does not change the outcome. S1 and S5 establish oscillation for the Vento S, and S2 establishes a timer of up to 8 hours. A single explicit failure of a requirement is enough for a Contradicted label, and the decision rests on S3 alone. S4 (cable length) is not relevant to any requirement.
+
+No source in the set has been withdrawn.
+
+RELIES_ON: S3
+DECISION: Contradicted

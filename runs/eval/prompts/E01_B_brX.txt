@@ -1,0 +1,53 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Mira should buy the Brevo K2 kettle."
+
+Mira's requirements
+R1. It must switch off automatically when the water boils.
+R2. It must be no taller than 22 cm.
+R3. It must boil 1 litre of water in under 4 minutes.
+
+Sources (all currently valid)
+S1. Magazine review: we timed the Brevo K2 at 3 minutes 25 seconds to boil 1 litre.
+S2. Manufacturer specification sheet: the Brevo K2 is 19 cm tall including the lid.
+S3. Manufacturer specification sheet: the larger Brevo K3 is 21 cm tall including the lid.
+S4. Lab test report: the Brevo K2 boiled 1 litre of water in 3 minutes 10 seconds.
+S5. Retailer listing: the Brevo K2 is sold in sage green and charcoal.
+S6. User manual: the Brevo K2 switches off automatically once the water reaches a boil.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (switches off automatically at boil) | S6 | Yes. S6 is a currently valid user manual for the Brevo K2 and states the switch-off behaviour directly.
+R2 (no taller than 22 cm) | S2 | Yes. S2 is a currently valid manufacturer specification for the Brevo K2 and gives a height of 19 cm including the lid, which is at most 22 cm. (S3 covers the K3 and does not apply.)
+R3 (1 litre in under 4 minutes) | S4 (S1 also qualifies) | Yes. S4 is a currently valid lab report for the Brevo K2 giving 3 min 10 s, which is under 4 minutes. S1 is a currently valid magazine review for the Brevo K2 giving 3 min 25 s, which is also under 4 minutes.
+
+Justification
+
+Each requirement is established for the exact product named in the recommendation (the Brevo K2) by a currently valid source that states the property directly (R1) or gives a measurement that meets the threshold by simple comparison (R2 and R3). No source shows any requirement is unmet: S3 concerns the K3, and S5 (colours) is irrelevant to Mira's requirements. No source has been withdrawn, so none is excluded. Since all three requirements are established, the recommendation is Supported. The decision holds on S2, S4 and S6 alone; S1 is redundant corroboration for R3.
+
+RELIES_ON: S2,S4,S6
+DECISION: Supported
+
+----- USER -----
+Update: source S5 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules. Update your dependency table first, then give your current decision in the same output format.

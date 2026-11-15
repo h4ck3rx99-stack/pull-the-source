@@ -1,0 +1,10 @@
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Shackle fits around a 5 cm frame tube | S3, S4 | Yes, both are currently valid |
+| R2. Weighs under 1.5 kg | S1 | Yes, currently valid |
+| R3. Includes a frame mount | S5 | Yes, currently valid |
+
+Justification: S2 was withdrawn, but no requirement depended on it, so the table and the decision are unchanged. For R1, S3 gives an internal shackle width of 9 cm, which is more than 5 cm by simple comparison, and S4 independently reports that the Corvin U9 closed around a 6 cm frame tube, which also meets the threshold. For R2, S1 gives a weight of 1.3 kg, which is under 1.5 kg. For R3, S5 states that the Corvin U9 comes with a frame mount. S6 is vague and was not needed. Every requirement is established for the exact product named by currently valid sources, so the recommendation is supported.
+
+RELIES_ON: S1, S3, S4, S5
+DECISION: Supported

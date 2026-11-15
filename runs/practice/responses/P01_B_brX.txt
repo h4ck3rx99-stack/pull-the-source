@@ -1,0 +1,21 @@
+Dependency table (updated after S2 was withdrawn)
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1. Leak-proof | S3 | Yes (S3 is a lab test report on the Riva 750 and is still valid)
+R2. Fits a standard 7.5 cm cup holder | S1 | Yes (S1 is a retailer test on the Riva 750 and is still valid)
+R3. Holds at least 700 ml | S6 | Yes (S6 is a specification sheet for the Riva 750 and is still valid)
+
+Justification
+
+S2 (colours) was not used to establish any requirement, so its withdrawal removes no evidence from the decision. Withdrawal also does not show that S2 was false, and nothing here depends on that question.
+
+R1 is still established by S3, which reports a specific test on the exact product: the Riva 750 did not leak when shaken upside down for ten minutes. S4 ("made for life on the go") remains vague and is not relied on.
+
+R2 is still established by S1, which states directly that the Riva 750 fits a standard 7.5 cm cup holder.
+
+R3 is still established by S6, which states the Riva 750 holds 750 ml. 750 ml is at least 700 ml by simple comparison. S5 (740 ml poured) also meets the threshold and corroborates S6, but the decision does not depend on it.
+
+Every requirement is still established by a currently valid source for the exact product named, and no currently valid source contradicts any requirement. The decision is unchanged.
+
+RELIES_ON: S1, S3, S6
+DECISION: Supported

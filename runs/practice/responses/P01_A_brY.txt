@@ -1,0 +1,4 @@
+With S6 withdrawn, R3 (at least 700 ml) now rests on S5, the independent review. That review records a pour of 740 ml into the Riva 750. Since 740 ml is at least 700 ml by simple comparison, and the measurement is for the exact product named, R3 is still established. R1 still rests on S3, the lab test that found no leak after ten minutes upside down, and R2 still rests on S1, the retailer test of fit in a standard 7.5 cm cup holder. Both sources remain valid, so all three requirements are still established. S2 and S4 do not bear on any requirement. Nothing in the valid sources shows a requirement is unmet, so Contradicted does not apply. The decision stays Supported, though it depends on S5 reading as evidence of capacity rather than only of a pour, which is a reasonable but not explicit reading.
+
+RELIES_ON: S1, S3, S5
+DECISION: Supported

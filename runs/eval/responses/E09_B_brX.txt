@@ -1,0 +1,20 @@
+Updated dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Grind timer | S6 | Yes |
+| R2. Hopper holds at least 200 g | S1 | Yes |
+| R3. Grinds fine enough for espresso | S2 (withdrawn; no other valid source establishes it) | No. S2 is withdrawn and is no longer usable as evidence. |
+
+Justification
+
+R1 is still established directly for the Mola G1. The user manual (S6) states that the grind timer is adjustable from 5 to 60 seconds.
+
+R2 is still established by a specific measurement that clears the threshold by simple comparison. The specification sheet (S1) gives the Mola G1 hopper capacity as 250 g, which is at least 200 g. The independent review (S5) is not needed for this.
+
+R3 is no longer established. The only source that established it was the lab test report (S2), and it is withdrawn. Withdrawal does not show that S2 was false, but it cannot be used as evidence now. The remaining valid sources say nothing about the grind size for the Mola G1 at espresso fineness. S3 ("for every brew style") is vague packaging copy and does not count. S4 (matte white) and S5 (a 240 g loading test) do not address grind fineness.
+
+No currently valid source explicitly shows that R3 is not met, so the answer is not Contradicted. Because R3 is not established by any currently valid source, the answer is Insufficient evidence, not Supported. The decision rests on the absence of any valid source for R3, not on the content of S1, S5 or S6, so none of the valid sources is one the decision depends on.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

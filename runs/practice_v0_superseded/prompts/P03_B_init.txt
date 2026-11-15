@@ -1,0 +1,32 @@
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source explicitly establishes it for the exact product named in the recommendation.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Lena should buy the Vento S desk fan."
+
+Lena's requirements
+R1. It must be quieter than 40 dB on its lowest setting.
+R2. It must oscillate.
+R3. It must have a timer.
+
+Sources (all currently valid)
+S1. Product page: the Vento S oscillates through 90 degrees.
+S2. User manual: the Vento S has a timer of up to 8 hours.
+S3. Lab test report: the Vento S measured 47 dB on its lowest setting.
+S4. Retailer listing: the Vento S cable is 1.5 metres long.
+S5. Independent review: the Vento S swept side to side in our test.
+S6. Brand advertisement: the Vento S is 'whisper quiet'.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>

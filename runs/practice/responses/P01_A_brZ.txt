@@ -1,0 +1,4 @@
+Justification: With S3 withdrawn, no currently valid source establishes R1 (leak-proof) for the Riva 750. S3 was the only source addressing leaks. Withdrawal does not make its content false, but it can no longer be used as evidence. No remaining source mentions leaks (S5 reports a fill volume and S2 and S4 do not bear on any requirement), and none explicitly shows a leak, so R1 is unestablished rather than contradicted. R2 remains established by S1 (fits a standard 7.5 cm cup holder), and R3 remains established by S6 (750 ml is at least 700 ml by simple comparison). Supported requires every requirement to be established, and R1 is not, so the label cannot be Supported. No currently valid source explicitly shows a requirement is not met, so the label cannot be Contradicted. The decision rests on the absence of valid leak evidence; removing S1 or S6 would not change it, so no source is relied on.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

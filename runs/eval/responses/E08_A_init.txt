@@ -1,0 +1,12 @@
+R1 (under 3 kg): S5 states that the Marlo Cabin 55 weighs 2.6 kg, which is under 3 kg. S6, an independent review, also reports 2.7 kg empty, which is under 3 kg. Established.
+
+R2 (built-in combination lock): S3, the product page, states that the Marlo Cabin 55 has a built-in three-digit combination lock. Established.
+
+R3 (external size within 55 x 40 x 20 cm including wheels): S2, a retailer measurement, gives 54 x 38 x 20 cm for the Marlo Cabin 55 including wheels and handles. Each dimension is at or below its limit (54 <= 55, 38 <= 40, 20 <= 20). Established by simple comparison.
+
+S1 (lining pattern) does not bear on any requirement. S4 measures the Marlo Cabin 50, a different model, so it cannot establish anything about the Cabin 55.
+
+All three requirements are established for the named product by currently valid sources, so the recommendation is Supported.
+
+RELIES_ON: S2,S3,S5
+DECISION: Supported

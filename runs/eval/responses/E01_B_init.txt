@@ -1,0 +1,13 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (switches off automatically at boil) | S6 | Yes. S6 is a currently valid user manual for the Brevo K2 and states the switch-off behaviour directly.
+R2 (no taller than 22 cm) | S2 | Yes. S2 is a currently valid manufacturer specification for the Brevo K2 and gives a height of 19 cm including the lid, which is at most 22 cm. (S3 covers the K3 and does not apply.)
+R3 (1 litre in under 4 minutes) | S4 (S1 also qualifies) | Yes. S4 is a currently valid lab report for the Brevo K2 giving 3 min 10 s, which is under 4 minutes. S1 is a currently valid magazine review for the Brevo K2 giving 3 min 25 s, which is also under 4 minutes.
+
+Justification
+
+Each requirement is established for the exact product named in the recommendation (the Brevo K2) by a currently valid source that states the property directly (R1) or gives a measurement that meets the threshold by simple comparison (R2 and R3). No source shows any requirement is unmet: S3 concerns the K3, and S5 (colours) is irrelevant to Mira's requirements. No source has been withdrawn, so none is excluded. Since all three requirements are established, the recommendation is Supported. The decision holds on S2, S4 and S6 alone; S1 is redundant corroboration for R3.
+
+RELIES_ON: S2,S4,S6
+DECISION: Supported

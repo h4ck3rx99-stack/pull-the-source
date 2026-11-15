@@ -1,0 +1,21 @@
+Dependency table (updated, S1 withdrawn)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Switches off automatically if tipped over | S6 (user manual) | Yes. S6 states this for the Calda Mini. S5 covers the Calda Tower and does not count. |
+| R2. Draws no more than 1500 W | S2 (review measurement, 1180 W on high) | S2 is valid and concerns the Calda Mini, but it measures only the "high" setting. S1 is withdrawn and cannot be used. No remaining valid source states that high is the highest setting or that the device draws no more than 1500 W on any setting. Not established. |
+| R3. Has an adjustable thermostat | S4 (product page) | Yes. S4 states the Calda Mini has an adjustable thermostat dial. |
+
+Justification
+
+- R1 is stated directly by S6, the user manual for the Calda Mini. S5 is about a different model, so it establishes nothing about the Mini.
+- R3 is stated directly by S4.
+- R2 is the only requirement affected by the withdrawal. Before the update, I relied on S1 (rated 1200 W on its highest setting) for the 1500 W limit, with S2 only as corroboration. I should have flagged then that S2 alone covers only the high setting. Now S2 is the only usable source for R2. It gives a specific measurement (1180 W) that is below 1500 W, so it does meet the threshold by simple comparison. But it reports that measurement only for the high setting. Showing that the Calda Mini draws no more than 1500 W overall requires that high is its maximum draw, and nothing in the remaining valid sources says so. Treating high as the highest setting would be an assumption, which the rules do not allow.
+- The decision is not Contradicted. No currently valid source shows a draw above 1500 W. The problem is that R2 is not established, so the recommendation cannot be Supported.
+- S3 (carry handle) does not bear on any requirement.
+- Withdrawing S1 does not show that its figure was false. It only means S1 cannot be used as evidence.
+
+Since R2 is not established by a currently valid source, the decision is Insufficient evidence.
+
+RELIES_ON: S2,S4,S6
+DECISION: Insufficient evidence

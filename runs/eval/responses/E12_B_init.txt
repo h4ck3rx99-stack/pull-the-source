@@ -1,0 +1,21 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Switches off automatically if tipped over | S6 (user manual) | Yes. S6 states this for the Calda Mini. S5 covers the Calda Tower and does not count. |
+| R2. Draws no more than 1500 W | S1 (specification sheet, 1200 W rating on highest setting); S2 (review measurement, 1180 W) corroborates | Yes. Both sources concern the Calda Mini. 1200 W is at or below 1500 W by direct comparison. |
+| R3. Has an adjustable thermostat | S4 (product page) | Yes. S4 states the Calda Mini has an adjustable thermostat dial. |
+
+Justification
+
+All three requirements are established for the exact product named in the recommendation by currently valid sources.
+
+- R1 is stated directly by S6, the user manual for the Calda Mini. S5 is about a different model (the Calda Tower), so it establishes nothing about the Mini.
+- R2 is established by S1, whose rating of 1200 W on the highest setting is at or below the 1500 W limit. S2 measures 1180 W on high, which agrees with S1, but the decision does not need it.
+- R3 is stated directly by S4.
+- S3 (carry handle) does not bear on any requirement.
+
+Since every requirement is established, the recommendation is supported.
+
+RELIES_ON: S1,S4,S6
+DECISION: Supported

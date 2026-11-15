@@ -1,0 +1,10 @@
+Requirement check against the currently valid sources, all for the Riva 750:
+
+- R3 (at least 700 ml): established. S6 states the bottle holds 750 ml, and S5 independently records 740 ml poured in, which is also above 700 ml.
+- R1 (leak-proof): S3 reports no leak after ten minutes shaken upside down. That is one test result and the only leak evidence supplied, so it does not explicitly establish leak-proof in general. It is not contradicted either.
+- R2 (fits a standard 7.5 cm cup holder): S1 gives a base diameter of 7.1 cm, which is under 7.5 cm. The sources say nothing about the widest part of the bottle, so fit for the whole bottle is not explicitly established.
+
+No currently valid source shows that any requirement is unmet, so Contradicted does not apply. S2 (colours) and S4 (advertising slogan) bear on none of the requirements. Because R2 is not explicitly established and R1 rests on a single test, the recommendation is not supported.
+
+RELIES_ON: S1, S3, S5, S6
+DECISION: Insufficient evidence

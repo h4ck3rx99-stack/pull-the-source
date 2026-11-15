@@ -1,0 +1,166 @@
+[
+ {
+  "id": "P01",
+  "buyer": "Nell",
+  "product": "Riva 750 water bottle",
+  "recommendation": "Nell should buy the Riva 750 water bottle.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must be leak-proof."
+   },
+   {
+    "id": "R2",
+    "text": "It must fit a standard 7.5 cm cup holder."
+   },
+   {
+    "id": "R3",
+    "text": "It must hold at least 700 ml."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Retailer test: the Riva 750 fits a standard 7.5 cm cup holder."
+   },
+   {
+    "id": "S2",
+    "text": "Retailer listing: the Riva 750 comes in four colours."
+   },
+   {
+    "id": "S3",
+    "text": "Lab test report: the Riva 750 did not leak when shaken upside down for ten minutes."
+   },
+   {
+    "id": "S4",
+    "text": "Brand advertisement: the Riva 750 is 'made for life on the go'."
+   },
+   {
+    "id": "S5",
+    "text": "Independent review: we poured 740 ml into the Riva 750."
+   },
+   {
+    "id": "S6",
+    "text": "Specification sheet: the Riva 750 holds 750 ml."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S6"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S3"
+   }
+  ]
+ },
+ {
+  "id": "P02",
+  "buyer": "Kofi",
+  "product": "Estra 10 tablet stand",
+  "recommendation": "Kofi should buy the Estra 10 tablet stand.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must fold flat."
+   },
+   {
+    "id": "R2",
+    "text": "It must hold a tablet in portrait orientation."
+   },
+   {
+    "id": "R3",
+    "text": "It must weigh under 400 g."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Product page: the Estra 12 holds tablets in portrait and landscape."
+   },
+   {
+    "id": "S2",
+    "text": "Specification sheet: the Estra 10 weighs 310 g."
+   },
+   {
+    "id": "S3",
+    "text": "Product page: the Estra 10 folds flat to 1 cm thick."
+   },
+   {
+    "id": "S4",
+    "text": "Retailer listing: the Estra 10 is sold in silver."
+   },
+   {
+    "id": "S5",
+    "text": "Independent review: our Estra 10 weighed 320 g."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S4"
+   }
+  ]
+ },
+ {
+  "id": "P03",
+  "buyer": "Lena",
+  "product": "Vento S desk fan",
+  "recommendation": "Lena should buy the Vento S desk fan.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must be quieter than 40 dB on its lowest setting."
+   },
+   {
+    "id": "R2",
+    "text": "It must oscillate."
+   },
+   {
+    "id": "R3",
+    "text": "It must have a timer."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Product page: the Vento S oscillates through 90 degrees."
+   },
+   {
+    "id": "S2",
+    "text": "User manual: the Vento S has a timer of up to 8 hours."
+   },
+   {
+    "id": "S3",
+    "text": "Lab test report: the Vento S measured 47 dB on its lowest setting."
+   },
+   {
+    "id": "S4",
+    "text": "Retailer listing: the Vento S cable is 1.5 metres long."
+   },
+   {
+    "id": "S5",
+    "text": "Independent review: the Vento S swept side to side in our test."
+   },
+   {
+    "id": "S6",
+    "text": "Brand advertisement: the Vento S is 'whisper quiet'."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S3"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S4"
+   }
+  ]
+ }
+]

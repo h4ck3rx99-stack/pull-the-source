@@ -1,0 +1,9 @@
+Justification:
+With S5 withdrawn, no currently valid source establishes R2 (water resistance of at least 50 m) for the Pacer V3. Withdrawal does not show that S5's rating was false, but a withdrawn source can no longer be used as evidence. S2 gives 100 m, yet it concerns the separate Pacer V3 Dive model, so it cannot establish R2 for the exact product named. No other supplied source states or measures the Pacer V3's water resistance, so R2 is not established.
+
+R1 (battery at least 20 hours in GPS mode) remains established by S4, the lab test report, which records 26 hours in GPS mode. S6 (24 hours) is consistent with this but is not needed. R3 (built-in GPS) remains established by S1, the product page. S3 is irrelevant.
+
+No currently valid source shows that R2 is not met for the Pacer V3, so the recommendation is not Contradicted. Because R2 is not established, the recommendation cannot be Supported. Insufficient evidence is the only remaining label.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

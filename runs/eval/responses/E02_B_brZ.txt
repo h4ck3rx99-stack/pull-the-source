@@ -1,0 +1,16 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Must include a rain cover | S4 | Yes. S4 is a currently valid packing list stating that every Tarn 28 ships with a detachable rain cover. |
+| R2. Must weigh under 1.2 kg | S1 | Yes. S1 is a currently valid independent review giving a measured weight of 1.08 kg for the Tarn 28, which is below 1.2 kg. |
+| R3. Must fit a 16-inch laptop | S2 | No. S2 has been withdrawn, so it is no longer usable as evidence. No other valid source gives a specific fit measurement for the Tarn 28. S3 ("laptop-friendly") is vague and does not establish the requirement. |
+
+Decision
+
+R1 is still established directly by S4 for the Tarn 28. R2 is still established by the specific measurement in S1 (1.08 kg), which meets the 1.2 kg threshold by simple comparison. S6 (1.05 kg) would also meet it, but the decision does not need it.
+
+R3 is no longer established. Its only specific evidence was S2, which is withdrawn. S3 is vague and cannot establish a fit requirement. S5 concerns a sternum strap and is irrelevant. Withdrawal does not show that S2 was false, but the rules count only currently valid sources, so the withdrawn measurement cannot be used. Nothing in the remaining valid sources shows that the Tarn 28 fails to fit a 16-inch laptop, so the Contradicted label does not apply. Because R3 lacks established evidence, the recommendation is not Supported. Insufficient evidence is the only remaining label.
+
+RELIES_ON: S1,S4
+DECISION: Insufficient evidence

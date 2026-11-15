@@ -1,0 +1,10 @@
+Each requirement is established by a currently valid source that names the Sedda Flex directly and meets the threshold by simple comparison.
+
+R1 (user weight of at least 120 kg): S6 certifies the Sedda Flex for a user weight of 136 kg, and 136 is at least 120.
+R2 (seat adjusts down to 42 cm or lower): S2 is an independent review that measured the lowest Sedda Flex seat height at 41 cm, and 41 is at most 42. S5 gives a 40 cm minimum, which agrees but is not needed.
+R3 (adjustable armrests): S1 states that the Sedda Flex armrests adjust in height and width.
+
+S3 (single-box shipping) and S4 (a customer saying the chair feels sturdy) do not bear on any requirement. No source shows a requirement unmet, so the answer is not Contradicted.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported

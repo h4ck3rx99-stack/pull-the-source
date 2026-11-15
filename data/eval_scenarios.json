@@ -1,0 +1,722 @@
+[
+ {
+  "id": "E01",
+  "buyer": "Mira",
+  "product": "Brevo K2 kettle",
+  "recommendation": "Mira should buy the Brevo K2 kettle.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must switch off automatically when the water boils."
+   },
+   {
+    "id": "R2",
+    "text": "It must be no taller than 22 cm."
+   },
+   {
+    "id": "R3",
+    "text": "It must boil 1 litre of water in under 4 minutes."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Magazine review: we timed the Brevo K2 at 3 minutes 25 seconds to boil 1 litre."
+   },
+   {
+    "id": "S2",
+    "text": "Manufacturer specification sheet: the Brevo K2 is 19 cm tall including the lid."
+   },
+   {
+    "id": "S3",
+    "text": "Manufacturer specification sheet: the larger Brevo K3 is 21 cm tall including the lid."
+   },
+   {
+    "id": "S4",
+    "text": "Lab test report: the Brevo K2 boiled 1 litre of water in 3 minutes 10 seconds."
+   },
+   {
+    "id": "S5",
+    "text": "Retailer listing: the Brevo K2 is sold in sage green and charcoal."
+   },
+   {
+    "id": "S6",
+    "text": "User manual: the Brevo K2 switches off automatically once the water reaches a boil."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S5"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S1"
+   }
+  ]
+ },
+ {
+  "id": "E02",
+  "buyer": "Jonah",
+  "product": "Tarn 28 backpack",
+  "recommendation": "Jonah should buy the Tarn 28 backpack.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must include a rain cover."
+   },
+   {
+    "id": "R2",
+    "text": "It must weigh under 1.2 kg."
+   },
+   {
+    "id": "R3",
+    "text": "It must fit a 16-inch laptop."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Independent review: our Tarn 28 sample weighed 1.08 kg."
+   },
+   {
+    "id": "S2",
+    "text": "Retailer measurement: the Tarn 28 laptop sleeve accepts laptops up to 16.2 inches."
+   },
+   {
+    "id": "S3",
+    "text": "Brand advertisement: the Tarn 28 is described as 'laptop-friendly'."
+   },
+   {
+    "id": "S4",
+    "text": "Packing list: every Tarn 28 ships with a detachable rain cover."
+   },
+   {
+    "id": "S5",
+    "text": "Product page: the Tarn 28 sternum strap has a built-in whistle."
+   },
+   {
+    "id": "S6",
+    "text": "Retailer listing: the Tarn 28 weighed 1.05 kg on the shop scale."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S5"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S1"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S2"
+   }
+  ]
+ },
+ {
+  "id": "E03",
+  "buyer": "Priya",
+  "product": "Lumet Arc desk lamp",
+  "recommendation": "Priya should buy the Lumet Arc desk lamp.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "Its arm must reach at least 40 cm."
+   },
+   {
+    "id": "R2",
+    "text": "It must have a USB-C charging port."
+   },
+   {
+    "id": "R3",
+    "text": "Its colour temperature must be adjustable down to 2700 K."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Specification sheet: the Lumet Arc arm extends to 46 cm."
+   },
+   {
+    "id": "S2",
+    "text": "Independent review: we measured the Lumet Arc at 2700 K on its warmest setting."
+   },
+   {
+    "id": "S3",
+    "text": "Specification sheet: the Lumet Arc colour temperature adjusts from 2700 K to 6000 K."
+   },
+   {
+    "id": "S4",
+    "text": "Product page: the base of the Lumet Arc has one USB-C charging port (15 W)."
+   },
+   {
+    "id": "S5",
+    "text": "Product page: the Lumet Arc Pro has two USB-C charging ports."
+   },
+   {
+    "id": "S6",
+    "text": "Warranty card: the Lumet Arc carries a two-year warranty."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S3"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S4"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S6"
+   }
+  ]
+ },
+ {
+  "id": "E04",
+  "buyer": "Sam",
+  "product": "Corvin U9 bike lock",
+  "recommendation": "Sam should buy the Corvin U9 bike lock.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "Its shackle must fit around a frame tube 5 cm wide."
+   },
+   {
+    "id": "R2",
+    "text": "It must weigh under 1.5 kg."
+   },
+   {
+    "id": "R3",
+    "text": "It must include a frame mount."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Specification sheet: the Corvin U9 weighs 1.3 kg."
+   },
+   {
+    "id": "S2",
+    "text": "Product page: the Corvin U9 is supplied with three keys."
+   },
+   {
+    "id": "S3",
+    "text": "Specification sheet: the Corvin U9 shackle has an internal width of 9 cm."
+   },
+   {
+    "id": "S4",
+    "text": "Independent review: the Corvin U9 closed around a 6 cm frame tube with room to spare."
+   },
+   {
+    "id": "S5",
+    "text": "Box contents list: the Corvin U9 comes with a frame mount."
+   },
+   {
+    "id": "S6",
+    "text": "Forum post: one rider calls the Corvin U9 'not too heavy'."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S4"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S1"
+   }
+  ]
+ },
+ {
+  "id": "E05",
+  "buyer": "Aiko",
+  "product": "Halden 2 tent",
+  "recommendation": "Aiko should buy the Halden 2 tent.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "Its floor must be at least 128 cm wide."
+   },
+   {
+    "id": "R2",
+    "text": "It must have two doors."
+   },
+   {
+    "id": "R3",
+    "text": "Its packed weight must be under 2.5 kg."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Independent review: our packed Halden 2 weighed 2.3 kg."
+   },
+   {
+    "id": "S2",
+    "text": "Specification sheet: the Halden 2 floor is 132 cm wide."
+   },
+   {
+    "id": "S3",
+    "text": "Product page: the Halden 2 has two doors, one on each side."
+   },
+   {
+    "id": "S4",
+    "text": "Specification sheet: the Halden 2 has a packed weight of 2.2 kg."
+   },
+   {
+    "id": "S5",
+    "text": "Retailer listing: the Halden 2 stuff sack is orange."
+   },
+   {
+    "id": "S6",
+    "text": "Specification sheet: the Halden 3 floor is 180 cm wide."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S1"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S5"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S2"
+   }
+  ]
+ },
+ {
+  "id": "E06",
+  "buyer": "Leo",
+  "product": "Sonvia H40 headphones",
+  "recommendation": "Leo should buy the Sonvia H40 headphones.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "They must work with a wired 3.5 mm connection."
+   },
+   {
+    "id": "R2",
+    "text": "They must fold for travel."
+   },
+   {
+    "id": "R3",
+    "text": "Battery life must be at least 30 hours."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Archived product page: the earlier Sonvia H30 had a 3.5 mm jack."
+   },
+   {
+    "id": "S2",
+    "text": "App store listing: the Sonvia companion app has an equaliser."
+   },
+   {
+    "id": "S3",
+    "text": "Independent review: the Sonvia H40 lasted 35 hours in our battery test."
+   },
+   {
+    "id": "S4",
+    "text": "Lab test report: the Sonvia H40 played for 38 hours on one charge."
+   },
+   {
+    "id": "S5",
+    "text": "Box contents list: the Sonvia H40 includes a 3.5 mm audio cable and has a 3.5 mm jack on the left ear cup."
+   },
+   {
+    "id": "S6",
+    "text": "Product page: the Sonvia H40 ear cups fold flat into the headband."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S5"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S3"
+   }
+  ]
+ },
+ {
+  "id": "E07",
+  "buyer": "Dana",
+  "product": "Pulso 600 blender",
+  "recommendation": "Dana should buy the Pulso 600 blender.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must be quieter than 90 dB at top speed."
+   },
+   {
+    "id": "R2",
+    "text": "Its jar must hold at least 1.5 litres."
+   },
+   {
+    "id": "R3",
+    "text": "Its jar must be dishwasher-safe."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Brand advertisement: the Pulso 600 is described as 'easy to clean'."
+   },
+   {
+    "id": "S2",
+    "text": "User manual: the Pulso 600 jar and lid are dishwasher-safe on the top rack."
+   },
+   {
+    "id": "S3",
+    "text": "Specification sheet: the Pulso 600 jar capacity is 1.75 litres."
+   },
+   {
+    "id": "S4",
+    "text": "Independent review: we filled the Pulso 600 jar with 1.7 litres up to the maximum line."
+   },
+   {
+    "id": "S5",
+    "text": "Lab test report: the Pulso 600 measured 86 dB at top speed."
+   },
+   {
+    "id": "S6",
+    "text": "Product page: the Pulso 600 power cord is 1 metre long."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S6"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S4"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S2"
+   }
+  ]
+ },
+ {
+  "id": "E08",
+  "buyer": "Felix",
+  "product": "Marlo Cabin 55 suitcase",
+  "recommendation": "Felix should buy the Marlo Cabin 55 suitcase.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must weigh under 3 kg."
+   },
+   {
+    "id": "R2",
+    "text": "It must have a built-in combination lock."
+   },
+   {
+    "id": "R3",
+    "text": "Its external size must be within 55 x 40 x 20 cm including wheels."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Retailer listing: the Marlo Cabin 55 lining has a striped pattern."
+   },
+   {
+    "id": "S2",
+    "text": "Retailer measurement: the Marlo Cabin 55 measures 54 x 38 x 20 cm including wheels and handles."
+   },
+   {
+    "id": "S3",
+    "text": "Product page: the Marlo Cabin 55 has a built-in three-digit combination lock."
+   },
+   {
+    "id": "S4",
+    "text": "Retailer measurement: the Marlo Cabin 50 measures 50 x 35 x 20 cm including wheels."
+   },
+   {
+    "id": "S5",
+    "text": "Specification sheet: the Marlo Cabin 55 weighs 2.6 kg."
+   },
+   {
+    "id": "S6",
+    "text": "Independent review: our Marlo Cabin 55 weighed 2.7 kg empty."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S1"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S6"
+   }
+  ]
+ },
+ {
+  "id": "E09",
+  "buyer": "Ines",
+  "product": "Mola G1 coffee grinder",
+  "recommendation": "Ines should buy the Mola G1 coffee grinder.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must have a grind timer."
+   },
+   {
+    "id": "R2",
+    "text": "Its hopper must hold at least 200 g of beans."
+   },
+   {
+    "id": "R3",
+    "text": "It must grind fine enough for espresso."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Specification sheet: the Mola G1 hopper holds 250 g of beans."
+   },
+   {
+    "id": "S2",
+    "text": "Lab test report: at setting 3 the Mola G1 produced an espresso-fine grind that pulled a standard espresso shot."
+   },
+   {
+    "id": "S3",
+    "text": "Packaging text: the Mola G1 box says 'for every brew style'."
+   },
+   {
+    "id": "S4",
+    "text": "Retailer listing: the Mola G1 is available in matte white."
+   },
+   {
+    "id": "S5",
+    "text": "Independent review: we loaded 240 g of beans into the Mola G1 hopper."
+   },
+   {
+    "id": "S6",
+    "text": "User manual: the Mola G1 has a grind timer adjustable from 5 to 60 seconds."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S2"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S4"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S1"
+   }
+  ]
+ },
+ {
+  "id": "E10",
+  "buyer": "Omar",
+  "product": "Pacer V3 running watch",
+  "recommendation": "Omar should buy the Pacer V3 running watch.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "Its battery must last at least 20 hours in GPS mode."
+   },
+   {
+    "id": "R2",
+    "text": "It must be water resistant to at least 50 m."
+   },
+   {
+    "id": "R3",
+    "text": "It must have built-in GPS."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Product page: the Pacer V3 has a built-in GPS receiver and does not need a phone."
+   },
+   {
+    "id": "S2",
+    "text": "Product page: the separate Pacer V3 Dive model is rated water resistant to 100 m."
+   },
+   {
+    "id": "S3",
+    "text": "Retailer listing: the Pacer V3 strap comes in three colours."
+   },
+   {
+    "id": "S4",
+    "text": "Lab test report: the Pacer V3 ran for 26 hours in GPS mode."
+   },
+   {
+    "id": "S5",
+    "text": "Specification sheet: the Pacer V3 is rated water resistant to 50 m (5 ATM)."
+   },
+   {
+    "id": "S6",
+    "text": "Independent review: the Pacer V3 lasted 24 hours with GPS on."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S4"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S3"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S5"
+   }
+  ]
+ },
+ {
+  "id": "E11",
+  "buyer": "Ruth",
+  "product": "Sedda Flex office chair",
+  "recommendation": "Ruth should buy the Sedda Flex office chair.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must be rated for a user weight of at least 120 kg."
+   },
+   {
+    "id": "R2",
+    "text": "Its seat must adjust down to 42 cm or lower."
+   },
+   {
+    "id": "R3",
+    "text": "It must have adjustable armrests."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Product page: the Sedda Flex armrests adjust in height and width."
+   },
+   {
+    "id": "S2",
+    "text": "Independent review: we measured the lowest Sedda Flex seat height at 41 cm."
+   },
+   {
+    "id": "S3",
+    "text": "Retailer listing: the Sedda Flex ships in a single box."
+   },
+   {
+    "id": "S4",
+    "text": "Customer comment: 'the Sedda Flex feels sturdy'."
+   },
+   {
+    "id": "S5",
+    "text": "Specification sheet: the Sedda Flex seat height range is 40 to 52 cm."
+   },
+   {
+    "id": "S6",
+    "text": "Certification document: the Sedda Flex is certified for a user weight of 136 kg."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S3"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S6"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S2"
+   }
+  ]
+ },
+ {
+  "id": "E12",
+  "buyer": "Tomas",
+  "product": "Calda Mini space heater",
+  "recommendation": "Tomas should buy the Calda Mini space heater.",
+  "requirements": [
+   {
+    "id": "R1",
+    "text": "It must switch off automatically if tipped over."
+   },
+   {
+    "id": "R2",
+    "text": "It must draw no more than 1500 W."
+   },
+   {
+    "id": "R3",
+    "text": "It must have an adjustable thermostat."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "text": "Specification sheet: the Calda Mini is rated at 1200 W on its highest setting."
+   },
+   {
+    "id": "S2",
+    "text": "Independent review: our power meter read 1180 W with the Calda Mini on high."
+   },
+   {
+    "id": "S3",
+    "text": "Retailer listing: the Calda Mini has a carry handle on the back."
+   },
+   {
+    "id": "S4",
+    "text": "Product page: the Calda Mini has an adjustable thermostat dial."
+   },
+   {
+    "id": "S5",
+    "text": "Product page: the Calda Tower has tip-over protection."
+   },
+   {
+    "id": "S6",
+    "text": "User manual: the Calda Mini switches off automatically if it is tipped over."
+   }
+  ],
+  "branches": [
+   {
+    "branch": "X",
+    "withdraw": "S6"
+   },
+   {
+    "branch": "Y",
+    "withdraw": "S1"
+   },
+   {
+    "branch": "Z",
+    "withdraw": "S3"
+   }
+  ]
+ }
+]

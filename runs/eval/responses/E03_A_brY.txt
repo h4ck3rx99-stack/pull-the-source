@@ -1,0 +1,8 @@
+With S4 withdrawn, it can no longer be used as evidence. R1 and R3 are still established for the Lumet Arc: S1 states the arm extends to 46 cm, which meets the 40 cm threshold by simple comparison, and S3 states the colour temperature adjusts down to 2700 K. S2 independently measured 2700 K, which corroborates R3.
+
+R2 (USB-C charging port) is no longer established. The only source naming the Lumet Arc's USB-C port was S4, which is withdrawn. S5 describes the Lumet Arc Pro, a different model, so it does not count. Withdrawal of S4 does not show its content was false, but it cannot be used as evidence.
+
+No currently valid source shows that R2 is not met, so the label cannot be Contradicted. Because R2 is not established, the label is not Supported.
+
+RELIES_ON: S1, S3
+DECISION: Insufficient evidence

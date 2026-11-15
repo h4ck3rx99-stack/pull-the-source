@@ -1,0 +1,20 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Quieter than 90 dB at top speed | S5 | Yes (all sources are currently valid) |
+| R2. Jar holds at least 1.5 litres | S3 | Yes |
+| R3. Jar is dishwasher-safe | S2 | Yes |
+
+Justification
+
+R1: S5 is a lab test report for the Pulso 600 itself. It measures 86 dB at top speed. 86 is less than 90, so the threshold is met by simple comparison. S5 is the only source used for R1.
+
+R2: S3 is a specification sheet for the Pulso 600 itself. It gives the jar capacity as 1.75 litres. 1.75 is at least 1.5, so the threshold is met by simple comparison. S4 (1.7 litres filled to the maximum line) is consistent with this but is not needed for the decision.
+
+R3: S2 is the user manual for the Pulso 600. It states that the jar and lid are dishwasher-safe on the top rack, which states the requirement directly. S1 ("easy to clean") is vague and does not establish dishwasher safety, so it is not relied on. S6 (power cord length) is not relevant to any requirement.
+
+Every requirement is established for the exact product named in the recommendation by a currently valid source, and no currently valid source shows a requirement is unmet. The label is therefore Supported.
+
+RELIES_ON: S2,S3,S5
+DECISION: Supported

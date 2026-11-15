@@ -1,0 +1,14 @@
+Justification:
+
+Withdrawing S3 changes nothing. S3, the carry-handle listing, was never evidence for any of Tomas's requirements, so the decision rests on the same sources as before.
+
+R1 (shuts off when tipped over) is established for the Calda Mini by S6, the user manual. The Calda Tower tip-over protection in S5 belongs to a different model and cannot count toward this requirement.
+
+R2 (draws at most 1500 W) is established by S1, which rates the Calda Mini at 1200 W on its highest setting. That is below the 1500 W limit. The measured 1180 W in S2 is consistent with this but is not needed.
+
+R3 (adjustable thermostat) is established by S4, the product page, which lists an adjustable thermostat dial on the Calda Mini.
+
+Every requirement is still established for the exact product by currently valid sources, and no currently valid source shows that a requirement is unmet. The recommendation remains supported.
+
+RELIES_ON: S1, S4, S6
+DECISION: Supported

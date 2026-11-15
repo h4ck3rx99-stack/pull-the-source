@@ -1,0 +1,10 @@
+With S2 withdrawn, R2 needs another source. S5 is a currently valid specification sheet that names the Sedda Flex directly and gives a seat height range of 40 to 52 cm. The lowest attainable seat height is therefore 40 cm, and 40 is at most 42, so R2 is met by simple comparison.
+
+R1 is still established by S6, which certifies the Sedda Flex for a user weight of 136 kg, and 136 is at least 120.
+R2 is now established by S5, whose 40 cm lower bound is at most 42.
+R3 is still established by S1, which states that the Sedda Flex armrests adjust in height and width.
+
+S3 and S4 do not bear on any requirement. No currently valid source shows a requirement unmet, so the answer is not Contradicted. Every requirement is established, so the decision is Supported.
+
+RELIES_ON: S1, S5, S6
+DECISION: Supported

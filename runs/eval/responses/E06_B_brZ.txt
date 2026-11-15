@@ -1,0 +1,22 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1 (works with a wired 3.5 mm connection) | S5 | Yes |
+| R2 (folds for travel) | S6 | Yes |
+| R3 (battery life at least 30 hours) | S4 (S3 is withdrawn, so it is excluded) | Yes |
+
+Justification
+
+R1 is still established directly for the exact product. S5 states that the Sonvia H40 has a 3.5 mm jack on the left ear cup and includes a 3.5 mm audio cable. S1 remains excluded because it concerns the earlier Sonvia H30.
+
+R2 is still established directly. S6 states that the Sonvia H40 ear cups fold flat into the headband.
+
+R3 remains established after the withdrawal. S4, a lab test report, records 38 hours on one charge for the Sonvia H40, which is at or above the 30-hour threshold by simple comparison. S3 can no longer be used as evidence, so its 35-hour figure plays no part in the decision. The withdrawal does not show that S3 was false, but the rules bar relying on it, so it is set aside rather than weighed. S4 alone meets the requirement.
+
+S2 still bears on no requirement.
+
+Every requirement is still established by a currently valid source for the exact product, and no currently valid source shows that a requirement is unmet. The decision remains Supported. As before, this is a finding of support only, not a claim that the product is the best choice.
+
+RELIES_ON: S4,S5,S6
+DECISION: Supported

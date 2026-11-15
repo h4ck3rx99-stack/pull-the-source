@@ -1,0 +1,21 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (folds flat) | S3 | Yes. S3 is a currently valid product page and names the Estra 10 directly.
+R2 (holds tablet in portrait) | None. S1 covers the Estra 12, not the Estra 10, so it does not establish R2 for the named product. | Not applicable. No currently valid source establishes R2 for the Estra 10.
+R3 (weighs under 400 g) | S2 | Yes. S2 is a currently valid specification sheet and gives the Estra 10 weight as 310 g.
+
+Justification
+
+The recommendation names the Estra 10 tablet stand, so only sources that explicitly concern the Estra 10 can establish a requirement.
+
+R1 is established by S3, which states that the Estra 10 folds flat to 1 cm thick.
+
+R3 is established by S2, which states that the Estra 10 weighs 310 g, under the 400 g limit. S5 also reports a weight under 400 g (320 g), but it is not needed and is not relied on.
+
+R2 is not established. The only source about portrait orientation is S1, and it describes the Estra 12, a different product. Nothing in the supplied sources shows that the Estra 10 holds a tablet in portrait orientation. S1 does not contradict the requirement for the Estra 10 either, so the Contradicted label does not apply. S4 (colour) is irrelevant to the requirements.
+
+All sources are currently valid, so no withdrawal issue arises. Because R2 is neither established nor contradicted for the exact product named, the recommendation is not justified by the supplied sources. The label is Insufficient evidence.
+
+RELIES_ON: S2,S3
+DECISION: Insufficient evidence

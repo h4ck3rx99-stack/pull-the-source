@@ -1,0 +1,8 @@
+Justification: Withdrawing S2 changes nothing. S2 (the Riva 750 comes in four colours) never bore on any requirement, so it was not part of the basis for the decision. The three requirements remain established for the Riva 750 by currently valid sources.
+R1 (leak-proof): S3, a lab test report, says the Riva 750 did not leak when shaken upside down for ten minutes. This is a specific test result for the exact product, and it is still valid.
+R2 (fits a standard 7.5 cm cup holder): S1, a retailer test, says the Riva 750 fits a standard 7.5 cm cup holder. This states the requirement directly.
+R3 (at least 700 ml): S6, the specification sheet, says the Riva 750 holds 750 ml. 750 ml is at least 700 ml by simple comparison. S5 also meets the threshold but is not needed for the decision.
+S4 (advertising slogan) does not bear on any requirement. The withdrawal of S2 does not imply that S2 was false, and it does not affect the decision.
+
+RELIES_ON: S1, S3, S6
+DECISION: Supported

@@ -1,0 +1,19 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1. Leak-proof | S3 | Yes (S3 is a lab test report on the Riva 750 and is currently valid)
+R2. Fits a standard 7.5 cm cup holder | S1 | Yes (S1 is a retailer test on the Riva 750 and is currently valid)
+R3. Holds at least 700 ml | S5 | Yes (S5 is an independent review of the Riva 750 and is currently valid; S6 is withdrawn and is no longer used)
+
+Justification
+
+S6 has been withdrawn, so it can no longer serve as evidence for R3. Withdrawal does not mean its content is false, but it is simply not usable here.
+
+R3 is still established, now by S5. S5 reports a specific measurement on the exact product: 740 ml was poured into the Riva 750. Since 740 ml is at least 700 ml by simple comparison, S5 meets the threshold. S5 is the only remaining source for R3, so the decision now depends on it.
+
+R1 is still established by S3, which reports that the Riva 750 did not leak when shaken upside down for ten minutes. R2 is still established by S1, which states directly that the Riva 750 fits a standard 7.5 cm cup holder. S2 (colours) and S4 (vague advertising) are not relied on.
+
+Every requirement is still established by a currently valid source for the exact product named, and no currently valid source shows that any requirement is not met. The label therefore remains Supported.
+
+RELIES_ON: S1, S3, S5
+DECISION: Supported

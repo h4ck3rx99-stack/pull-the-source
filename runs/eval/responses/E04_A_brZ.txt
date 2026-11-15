@@ -1,0 +1,16 @@
+Justification
+
+S1 has been withdrawn, so it can no longer be used as evidence. The earlier conclusion that depended on it no longer stands. The withdrawal does not show that the 1.3 kg figure is false; it only removes that figure from the evidence.
+
+R1 (shackle fits a 5 cm frame tube): still established. S4, an independent review of the Corvin U9 itself, reports that it closed around a 6 cm frame tube with room to spare, which is wider than the 5 cm threshold by direct comparison. S3 (9 cm internal shackle width) is consistent with this, but S4 is enough on its own.
+
+R3 (includes a frame mount): still established. S5, the Corvin U9 box contents list, states that the lock comes with a frame mount.
+
+R2 (under 1.5 kg): no longer established. S1 was the only currently valid source giving a weight for the exact product. S6 ("not too heavy") is a subjective remark with no measurement, so it cannot meet the threshold. No currently valid source shows that the weight is 1.5 kg or more, so R2 is not contradicted either.
+
+S2 (three keys) does not bear on any requirement.
+
+Because R2 is not established by any currently valid source, the recommendation is not Supported. Because no currently valid source explicitly shows R2 is unmet, it is not Contradicted. The label is Insufficient evidence.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

@@ -1,0 +1,13 @@
+Dependency table (updated)
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (switches off automatically at boil) | S6 | Yes. S6 is a currently valid user manual for the Brevo K2 and states the switch-off behaviour directly.
+R2 (no taller than 22 cm) | S2 | No. S2 has been withdrawn, so it is no longer usable as evidence. No other valid source gives the K2's height. (S3 covers the K3 and does not apply.)
+R3 (1 litre in under 4 minutes) | S4 (S1 also qualifies) | Yes. S4 is a currently valid lab report for the Brevo K2 giving 3 min 10 s, which is under 4 minutes. S1 is a currently valid magazine review for the Brevo K2 giving 3 min 25 s, which is also under 4 minutes.
+
+Justification
+
+R1 and R3 are still established for the Brevo K2 by currently valid sources (S6, and S4 with S1 as corroboration). R2 is no longer established, because its only source for the K2's height, S2, has been withdrawn. Withdrawal does not show S2 is false, but the rules say a withdrawn source cannot be used as evidence, so the 19 cm figure cannot be counted. S3 gives the K3's height (21 cm) and cannot stand in for the K2. Supported is therefore not available, since not every requirement is established. Contradicted is also not available, because no currently valid source explicitly shows the K2 is taller than 22 cm. Neither label applies, so the decision is Insufficient evidence. This outcome depends on the absence of a valid height source for the K2, not on any valid source. S1, S4 and S6 are valid but do not bear on R2, so none of them is a basis for the decision.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

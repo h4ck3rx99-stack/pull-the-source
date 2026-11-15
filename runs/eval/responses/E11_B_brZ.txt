@@ -1,0 +1,15 @@
+Dependency table (updated after S2 was withdrawn)
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (user weight at least 120 kg) | S6 | Yes. S6 is a certification document stating the Sedda Flex is certified for a user weight of 136 kg, and 136 is at least 120.
+R2 (seat adjusts down to 42 cm or lower) | S5 (S2 no longer usable) | Yes. S5 is the specification sheet giving the Sedda Flex seat height range as 40 to 52 cm, so the lowest adjustable seat height stated for this product is 40 cm, and 40 is at or below 42. S2 is withdrawn and is not relied on.
+R3 (adjustable armrests) | S1 | Yes. S1 is the product page stating the Sedda Flex armrests adjust in height and width.
+
+Justification
+
+Withdrawing S2 removes the only measurement that previously established R2 directly, so R2 must now rest on S5 alone. S2's withdrawal does not show that its measurement was false, but a withdrawn source cannot be used as evidence, so it plays no part here. S5 is a currently valid source for the exact product named in the recommendation. Its stated seat height range has a lower bound of 40 cm, and the rule that a stated value can establish a requirement by simple comparison applies: 40 is at or below the 42 cm threshold. This is a judgment about reading S5's range as stating the minimum adjustable height. If the range were read as only vague, R2 would be unestablished and the decision would become Insufficient evidence, but nothing supplied shows that R2 fails, so Contradicted does not apply.
+
+R1 still rests on S6 (136 kg against a 120 kg minimum) and R3 still rests on S1. S3 (single-box shipping) and S4 ("feels sturdy") bear on none of the requirements. No currently valid source contradicts any requirement. Every requirement is established by a currently valid source, so the recommendation is supported.
+
+RELIES_ON: S1,S5,S6
+DECISION: Supported

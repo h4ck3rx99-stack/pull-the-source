@@ -1,0 +1,4 @@
+The recommendation is contradicted by the supplied evidence. Requirement R1 requires the fan to be quieter than 40 dB on its lowest setting. The lab test report (S3) explicitly measured the Vento S at 47 dB on its lowest setting, which is above the 40 dB limit, so R1 is not met. Because one requirement is explicitly shown not to be met by a currently valid source, the recommendation cannot be supported, regardless of the other requirements. The oscillation (S1, S5) and timer (S2) requirements have support, but they do not change the outcome. The brand advertisement's 'whisper quiet' claim (S6) is not a measurement and is not used.
+
+RELIES_ON: S3
+DECISION: Contradicted

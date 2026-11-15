@@ -1,0 +1,18 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1 (works with a wired 3.5 mm connection) | S5 (S1 does not qualify, since it concerns the H30) | No. S5 has been withdrawn and is no longer usable as evidence. |
+| R2 (folds for travel) | S6 | Yes |
+| R3 (battery life at least 30 hours) | S3, S4 | Yes, Yes |
+
+Justification
+
+R1 is no longer established. Its only direct evidence for the Sonvia H40 was S5, which has been withdrawn. Withdrawal does not show that S5 is false, but under the rules a withdrawn source cannot be used as evidence. S1 concerns the earlier Sonvia H30, which the rules exclude for this product. No currently valid source states that the H40 works with a wired 3.5 mm connection.
+
+No currently valid source shows that R1 is not met, so "Contradicted" does not apply. R2 remains established by S6, and R3 remains established by S3 and S4. However, the recommendation needs every requirement to be established, and R1 is not. S2 still bears on no requirement.
+
+Decision: Insufficient evidence.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

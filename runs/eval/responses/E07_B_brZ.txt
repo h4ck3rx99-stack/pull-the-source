@@ -1,0 +1,22 @@
+Dependency table (updated after S2 withdrawal)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Quieter than 90 dB at top speed | S5 | Yes |
+| R2. Jar holds at least 1.5 litres | S3 | Yes |
+| R3. Jar is dishwasher-safe | S2 (withdrawn; no longer usable as evidence). S1 is vague and does not establish dishwasher safety, so it cannot substitute. | No. S2 is withdrawn, and no currently valid source establishes R3. |
+
+Justification
+
+R1: S5 is the lab test report for the Pulso 600 itself. It measures 86 dB at top speed. 86 is less than 90, so the threshold is met by simple comparison. S5 is still valid and is unchanged.
+
+R2: S3 is the specification sheet for the Pulso 600 itself. It gives the jar capacity as 1.75 litres. 1.75 is at least 1.5, so the threshold is met by simple comparison. S3 is still valid and is unchanged.
+
+R3: The only source that stated dishwasher safety directly was S2, and it has been withdrawn. Withdrawal does not show that S2 was false, but it can no longer be used as evidence. S1 ("easy to clean") is vague and does not establish dishwasher safety, so it cannot fill the gap. S4 concerns jar fill level, not dishwasher safety. S6 concerns power cord length. Neither bears on R3. R3 is therefore not established by any currently valid source.
+
+The label is not Contradicted. No currently valid source explicitly shows that R3 is not met; the only dishwasher-related source is withdrawn and the remaining source is vague. Because R3 is not established, the label is not Supported. The decision is therefore Insufficient evidence.
+
+The decision depends on S3 and S5 because either one, if it showed a failed requirement, would have changed the label to Contradicted. It does not depend on S1, S2, S4 or S6 as evidence.
+
+RELIES_ON: S3,S5
+DECISION: Insufficient evidence

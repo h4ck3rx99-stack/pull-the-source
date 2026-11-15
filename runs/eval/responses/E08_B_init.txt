@@ -1,0 +1,20 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Weighs under 3 kg | S5 (S6 also gives 2.7 kg, but S5 alone is sufficient) | Yes. S5 and S6 are both listed as currently valid. |
+| R2. Built-in combination lock | S3 | Yes. S3 is currently valid. |
+| R3. External size within 55 x 40 x 20 cm including wheels | S2 | Yes. S2 is currently valid. |
+
+Justification
+
+R1: S5 is a specification sheet for the Marlo Cabin 55, the exact product in the recommendation, and gives a weight of 2.6 kg. 2.6 kg is under 3 kg, so R1 is established by a direct measurement compared against the threshold. S6 is an independent review of the same product giving 2.7 kg empty, which is also under 3 kg and agrees with S5, but it is not needed for the decision.
+
+R2: S3 is a product page for the Marlo Cabin 55 stating that it has a built-in three-digit combination lock. This states the requirement directly.
+
+R3: S2 is a retailer measurement of the Marlo Cabin 55 at 54 x 38 x 20 cm including wheels and handles. Compared dimension by dimension against 55 x 40 x 20 cm: 54 is at most 55, 38 is at most 40, and 20 is at most 20. The external size is therefore within the limit. S4 measures the Marlo Cabin 50, a different model, so it does not establish anything here. S1 concerns the lining and is irrelevant to the requirements.
+
+No source explicitly shows that any requirement is not met, so Contradicted does not apply. All three requirements are established by currently valid sources for the exact product, so the recommendation is Supported. No source was withdrawn, so no source had to be excluded.
+
+RELIES_ON: S2, S3, S5
+DECISION: Supported

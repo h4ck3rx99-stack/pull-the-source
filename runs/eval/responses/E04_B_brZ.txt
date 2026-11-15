@@ -1,0 +1,10 @@
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Shackle fits around a 5 cm frame tube | S3, S4 | Yes, both are currently valid |
+| R2. Weighs under 1.5 kg | S1 | No, S1 has been withdrawn and is no longer usable as evidence |
+| R3. Includes a frame mount | S5 | Yes, currently valid |
+
+Justification: S1 is withdrawn, so its 1.3 kg figure cannot be used as evidence. The withdrawal does not show that the weight is wrong, but under the rules only currently valid sources count. No other currently valid source gives the weight of the exact Corvin U9, so R2 is not established. S6 says the lock is "not too heavy", which is vague and gives no measurement that meets the 1.5 kg threshold, so it cannot establish R2 either. Nothing currently valid shows that R2 fails, so the recommendation is not Contradicted. R1 remains established: S3 gives a 9 cm internal shackle width and S4 reports closing around a 6 cm tube, and both exceed 5 cm by simple comparison. R3 remains established by S5. S2 covers no requirement. Because R2 is not established and not contradicted, the decision is Insufficient evidence, and the earlier Supported decision no longer holds.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

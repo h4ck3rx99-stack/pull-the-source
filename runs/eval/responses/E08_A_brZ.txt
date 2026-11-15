@@ -1,0 +1,10 @@
+With S6 withdrawn, R1 (under 3 kg) now rests on S5 alone: the specification sheet states that the Marlo Cabin 55 weighs 2.6 kg, which is under 3 kg. Established.
+
+R2 (built-in combination lock) still rests on S3, the product page, which states that the Marlo Cabin 55 has a built-in three-digit combination lock. Established.
+
+R3 (external size within 55 x 40 x 20 cm including wheels) still rests on S2, the retailer measurement of 54 x 38 x 20 cm including wheels and handles. Each dimension is at or below its limit. Established by simple comparison.
+
+S1 does not bear on any requirement, and S4 measures the Marlo Cabin 50, a different model. Withdrawal of S6 does not show that its content was false, but S6 is no longer usable as evidence, and no requirement depended on it once S5 was available. All three requirements remain established for the named product by currently valid sources, so the recommendation is still Supported.
+
+RELIES_ON: S2,S3,S5
+DECISION: Supported

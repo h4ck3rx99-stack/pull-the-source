@@ -1,0 +1,16 @@
+Justification:
+
+S1 has been withdrawn, so it is no longer usable as evidence. Its removal does not change the decision, because R3 was already established by S4 and S1 was never needed for it.
+
+R1 (switches off automatically at boil): Established by S6, the user manual for the Brevo K2, which states that the kettle switches off automatically once the water reaches a boil.
+
+R2 (no taller than 22 cm): Established by S2, the manufacturer specification sheet for the Brevo K2, which gives a height of 19 cm including the lid. 19 cm is within the 22 cm limit. S3 gives the height of the Brevo K3, a different model, so it does not count.
+
+R3 (1 litre in under 4 minutes): Established by S4, the lab test report for the Brevo K2, which records 3 minutes 10 seconds. 3 minutes 10 seconds is under 4 minutes.
+
+S5 (colour options) is not relevant to any requirement.
+
+All three requirements are established for the exact product named by currently valid sources, and no currently valid source shows a requirement is unmet, so the recommendation is supported.
+
+RELIES_ON: S2, S4, S6
+DECISION: Supported

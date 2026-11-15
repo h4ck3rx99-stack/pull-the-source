@@ -1,0 +1,17 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (leak-proof) | S3 | Yes
+R2 (fits a standard 7.5 cm cup holder) | S1 (base diameter 7.1 cm only; no source states that the bottle fits a cup holder) | Yes
+R3 (holds at least 700 ml) | S6 (holds 750 ml) | Yes
+
+Justification
+
+Supported is not available because R2 is not explicitly established. S1 gives a base diameter of 7.1 cm, which is smaller than 7.5 cm, but no currently valid source says the Riva 750 fits a standard 7.5 cm cup holder. The rules do not allow that fit to be inferred from the diameter, so R2 is not established.
+
+Contradicted is not available because no currently valid source shows that any requirement is unmet. S3 reports no leak in one shake test, which does not show a leak. S1 does not show a misfit. S6 states a capacity of 750 ml, which meets R3. S5 reports 740 ml poured, which is still above 700 ml and does not contradict R3.
+
+S2 and S4 do not bear on any requirement. S4 is advertising language and gives no evidence on leaks, fit or capacity. Because R2 is not established, the recommendation cannot be confirmed from the supplied sources.
+
+RELIES_ON: S1, S3, S6
+DECISION: Insufficient evidence

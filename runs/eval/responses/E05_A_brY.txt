@@ -1,0 +1,4 @@
+Justification: S5 has been withdrawn, so it can no longer serve as evidence. It was never used for any requirement, since it only concerns the colour of the stuff sack. The remaining valid sources still establish all three requirements for the Halden 2. S2 gives a floor width of 132 cm, which clears the 128 cm threshold in R1. S3 says the tent has one door on each side, which satisfies R2. S4 gives a packed weight of 2.2 kg, which is under the 2.5 kg limit in R3. The withdrawal does not show that S5 was false, and no currently valid source shows that any requirement is unmet, so the label remains Supported.
+
+RELIES_ON: S2, S3, S4
+DECISION: Supported

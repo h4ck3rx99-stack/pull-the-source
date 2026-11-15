@@ -1,0 +1,12 @@
+Justification:
+
+R1 (switches off if tipped over) is established for the Calda Mini by S6, the user manual, which states that the Calda Mini switches off automatically if it is tipped over. S5 concerns the Calda Tower, a different model, so it does not count.
+
+R2 (no more than 1500 W) is established by S1, the specification sheet, which rates the Calda Mini at 1200 W on its highest setting. 1200 W is below the 1500 W threshold. S2 (a measured 1180 W on high) agrees but is not needed for the decision.
+
+R3 (adjustable thermostat) is established by S4, the product page, which states that the Calda Mini has an adjustable thermostat dial. S3 (carry handle) is irrelevant to the requirements.
+
+Every requirement is established for the exact product by currently valid sources, and no source shows a requirement is unmet. The recommendation is supported.
+
+RELIES_ON: S1, S4, S6
+DECISION: Supported

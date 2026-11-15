@@ -1,0 +1,21 @@
+Updated dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (arm reaches at least 40 cm) | S1 | Yes
+R2 (USB-C charging port) | S4 | Yes
+R3 (colour temperature adjustable down to 2700 K) | S2 | Yes (S3 is withdrawn and no longer usable as evidence, so it is no longer relied on)
+
+Justification
+
+S3 has been withdrawn, so it cannot be used as evidence. Withdrawal does not show that what S3 said is false, but it is simply set aside here.
+
+R1 is still established by S1, a specification sheet for the Lumet Arc, which gives the arm extension as 46 cm. 46 cm meets the 40 cm threshold by simple comparison.
+
+R2 is still established by S4, a product page for the Lumet Arc, which states the base has one USB-C charging port (15 W). S5 describes the Lumet Arc Pro, a different product, so it establishes nothing for the Lumet Arc and is not relied on.
+
+R3 is now established by S2, an independent review of the Lumet Arc that measured it at 2700 K on its warmest setting. This is a specific measurement for the exact product named. Reaching 2700 K on the warmest setting meets the threshold of adjustability down to 2700 K by simple comparison. Before the update, S2 was only corroboration. It is now the sole source for R3, and it is still currently valid.
+
+S6 (two-year warranty) concerns no requirement and plays no part in the decision. No currently valid source explicitly shows any requirement is unmet, so the answer is not Contradicted. Every requirement is established by a currently valid source for the exact product named, so the label remains Supported.
+
+RELIES_ON: S1,S2,S4
+DECISION: Supported

@@ -1,0 +1,650 @@
+[
+ {
+  "id": "E01",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S6": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S5",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   },
+   "Z": {
+    "type": "redundant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E02",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S6": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S5",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "redundant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "E03",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "E",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S6": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "redundant",
+    "withdraw": "S3",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "essential",
+    "withdraw": "S4",
+    "gold": "Insufficient evidence"
+   },
+   "Z": {
+    "type": "irrelevant",
+    "withdraw": "S6",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E04",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "E",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S3": {
+    "role": "D1",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D2",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "K",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "redundant",
+    "withdraw": "S4",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S2",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S1",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "E05",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "K",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S6": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "redundant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S5",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "E06",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S2": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S3": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "E",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "K",
+    "supports": "R2",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S2",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "essential",
+    "withdraw": "S5",
+    "gold": "Insufficient evidence"
+   },
+   "Z": {
+    "type": "redundant",
+    "withdraw": "S3",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E07",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S6",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "redundant",
+    "withdraw": "S4",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "E08",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "K",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D1",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "D2",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "redundant",
+    "withdraw": "S6",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E09",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "E",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "essential",
+    "withdraw": "S2",
+    "gold": "Insufficient evidence"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S4",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "redundant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E10",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "K",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S3": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "D1",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "E",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "D2",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "redundant",
+    "withdraw": "S4",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S3",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S5",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "E11",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "K",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "E",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S3",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "essential",
+    "withdraw": "S6",
+    "gold": "Insufficient evidence"
+   },
+   "Z": {
+    "type": "redundant",
+    "withdraw": "S2",
+    "gold": "Supported"
+   }
+  }
+ },
+ {
+  "id": "E12",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S4": {
+    "role": "K",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S5": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S6": {
+    "role": "E",
+    "supports": "R1",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "essential",
+    "withdraw": "S6",
+    "gold": "Insufficient evidence"
+   },
+   "Y": {
+    "type": "redundant",
+    "withdraw": "S1",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "irrelevant",
+    "withdraw": "S3",
+    "gold": "Supported"
+   }
+  }
+ }
+]

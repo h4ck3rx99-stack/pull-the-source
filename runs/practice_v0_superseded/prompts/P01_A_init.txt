@@ -1,0 +1,31 @@
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source explicitly establishes it for the exact product named in the recommendation.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Nell should buy the Riva 750 water bottle."
+
+Nell's requirements
+R1. It must be leak-proof.
+R2. It must fit a standard 7.5 cm cup holder.
+R3. It must hold at least 700 ml.
+
+Sources (all currently valid)
+S1. Specification sheet: the Riva 750 base is 7.1 cm in diameter.
+S2. Retailer listing: the Riva 750 comes in four colours.
+S3. Lab test report: the Riva 750 did not leak when shaken upside down for ten minutes.
+S4. Brand advertisement: the Riva 750 is 'made for life on the go'.
+S5. Independent review: we poured 740 ml into the Riva 750.
+S6. Specification sheet: the Riva 750 holds 750 ml.
+
+Output format
+Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>

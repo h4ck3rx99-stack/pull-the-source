@@ -1,0 +1,988 @@
+{
+ "conditions": {
+  "A": {
+   "initial_correct": 12,
+   "initial_total": 12,
+   "initial_wrong": [],
+   "all_cases": {
+    "n_scenarios": 12,
+    "essential_correct": 12,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 12,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 12,
+    "redundant_wrong": 0,
+    "post_correct": 36,
+    "post_total": 36,
+    "scenarios_all3_correct": 12
+   },
+   "initially_correct_cases": {
+    "n_scenarios": 12,
+    "essential_correct": 12,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 12,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 12,
+    "redundant_wrong": 0,
+    "post_correct": 36,
+    "post_total": 36,
+    "scenarios_all3_correct": 12
+   }
+  },
+  "B": {
+   "initial_correct": 12,
+   "initial_total": 12,
+   "initial_wrong": [],
+   "all_cases": {
+    "n_scenarios": 12,
+    "essential_correct": 12,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 12,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 11,
+    "redundant_wrong": 1,
+    "post_correct": 35,
+    "post_total": 36,
+    "scenarios_all3_correct": 11
+   },
+   "initially_correct_cases": {
+    "n_scenarios": 12,
+    "essential_correct": 12,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 12,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 11,
+    "redundant_wrong": 1,
+    "post_correct": 35,
+    "post_total": 36,
+    "scenarios_all3_correct": 11
+   }
+  }
+ },
+ "per_call": [
+  {
+   "scenario": "E01",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "A",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "B",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E01",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "A",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "B",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E02",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "A",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "A",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "B",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "B",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E03",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "A",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "B",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E04",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "A",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "B",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E05",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "A",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "B",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E06",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "A",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "B",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E07",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "A",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "B",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E08",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "A",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "B",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E09",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "A",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "B",
+   "stage": "brX",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E10",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "A",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "B",
+   "stage": "brY",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E11",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "A",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "A",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "B",
+   "stage": "brX",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "E12",
+   "condition": "B",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Insufficient evidence",
+   "correct": false
+  },
+  {
+   "scenario": "E12",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  }
+ ],
+ "paired_scenario_level_all3_correct": {
+  "both": 11,
+  "A_only": 1,
+  "B_only": 0,
+  "neither": 0,
+  "exact_sign_test_p_two_sided": 1.0
+ },
+ "reference_policies_not_model_runs": {
+  "always_insufficient": {
+   "initial_correct": 0,
+   "initial_total": 12,
+   "post_correct": 12,
+   "post_total": 36
+  },
+  "always_supported": {
+   "initial_correct": 12,
+   "initial_total": 12,
+   "post_correct": 24,
+   "post_total": 36
+  }
+ },
+ "exploratory_stated_dependencies": {
+  "A": {
+   "n": 12,
+   "stated_equals_key_support_set": 2,
+   "stated_includes_near_miss": 0,
+   "stated_includes_irrelevant": 0,
+   "stated_unparsed": 0,
+   "withdrawn_in_stated": {
+    "decision_changed": 12,
+    "decision_kept": 8
+   },
+   "withdrawn_not_in_stated": {
+    "decision_changed": 0,
+    "decision_kept": 16
+   }
+  },
+  "B": {
+   "n": 12,
+   "stated_equals_key_support_set": 2,
+   "stated_includes_near_miss": 0,
+   "stated_includes_irrelevant": 0,
+   "stated_unparsed": 0,
+   "withdrawn_in_stated": {
+    "decision_changed": 13,
+    "decision_kept": 7
+   },
+   "withdrawn_not_in_stated": {
+    "decision_changed": 0,
+    "decision_kept": 16
+   }
+  }
+ },
+ "set": "eval",
+ "n_calls_logged": 96,
+ "calls_missing_or_unparsed": []
+}

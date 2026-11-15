@@ -1,0 +1,8 @@
+Justification: With S4 withdrawn, each requirement is still established for the Pulso 600 by a currently valid source, and S4 was not needed for any of them.
+R1 (quieter than 90 dB at top speed): the lab test report measured 86 dB at top speed, which is below 90 dB (S5).
+R2 (jar of at least 1.5 litres): the specification sheet gives a jar capacity of 1.75 litres, which meets the threshold (S3).
+R3 (dishwasher-safe jar): the user manual states the jar and lid are dishwasher-safe on the top rack (S2).
+S1 is vague and does not establish R3, and S6 concerns no requirement. No currently valid source shows a requirement is not met, so the label is Supported.
+
+RELIES_ON: S2,S3,S5
+DECISION: Supported

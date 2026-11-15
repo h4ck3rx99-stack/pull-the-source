@@ -1,0 +1,4 @@
+Justification: Each requirement is established for the Halden 2 by a currently valid source. R1 is met because S2 (specification sheet) gives the Halden 2 floor as 132 cm, which is at least 128 cm. R2 is met because S3 (product page) states the Halden 2 has two doors, one on each side. R3 is met because S4 (specification sheet) gives a packed weight of 2.2 kg, which is under 2.5 kg. S1 (independent review, 2.3 kg) also falls under 2.5 kg but is not needed for the decision. S5 concerns the stuff sack colour and S6 concerns the Halden 3, so neither bears on the requirements. No source shows a requirement is unmet, so the recommendation is supported.
+
+RELIES_ON: S2, S3, S4
+DECISION: Supported

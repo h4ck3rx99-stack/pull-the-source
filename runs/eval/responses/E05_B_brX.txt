@@ -1,0 +1,22 @@
+Dependency table (updated for S1 withdrawn)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Floor at least 128 cm wide | S2 | Yes |
+| R2. Two doors | S3 | Yes |
+| R3. Packed weight under 2.5 kg | S4 (S1 was previously cited but is withdrawn and is no longer used) | Yes (S4) |
+
+Justification
+
+R1 still rests on S2, which gives the Halden 2 floor as 132 cm. That meets the 128 cm threshold by simple comparison.
+
+R2 still rests on S3, which states the Halden 2 has two doors, one on each side.
+
+R3 rests only on S4, the Halden 2 specification sheet, which gives a packed weight of 2.2 kg. That is under 2.5 kg. S1 is withdrawn and is no longer usable as evidence, so its 2.3 kg figure is set aside. The decision did not depend on S1 in the first place, so the withdrawal does not change the result.
+
+S5 and S6 remain irrelevant, as before: S5 concerns the stuff sack colour, and S6 concerns the Halden 3, a different model.
+
+All three requirements are still established by currently valid sources for the exact product named, and no currently valid source shows a requirement is unmet. The recommendation remains Supported.
+
+RELIES_ON: S2,S3,S4
+DECISION: Supported

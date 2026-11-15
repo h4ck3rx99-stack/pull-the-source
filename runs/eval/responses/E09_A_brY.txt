@@ -1,0 +1,4 @@
+Justification: Withdrawing S4 leaves the decision unchanged. S4 (the retailer listing noting matte white colour) was never used to establish any of Ines's requirements, so losing it removes nothing the decision depends on. The three requirements still rest on currently valid sources that name the Mola G1: R1 (grind timer) is established by S6, which describes a grind timer adjustable from 5 to 60 seconds. R2 (hopper of at least 200 g) is established by S1, which gives a hopper capacity of 250 g, above the threshold. R3 (grind fine enough for espresso) is established by S2, where the lab test records an espresso-fine grind at setting 3 that pulled a standard espresso shot. S3 remains vague and S5 remains a loading report rather than a capacity claim, so neither changes the result. The withdrawal does not show that S4 was false, and no currently valid source shows any requirement is unmet, so the recommendation is supported.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported

@@ -1,0 +1,58 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source explicitly establishes it for the exact product named in the recommendation.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Lena should buy the Vento S desk fan."
+
+Lena's requirements
+R1. It must be quieter than 40 dB on its lowest setting.
+R2. It must oscillate.
+R3. It must have a timer.
+
+Sources (all currently valid)
+S1. Product page: the Vento S oscillates through 90 degrees.
+S2. User manual: the Vento S has a timer of up to 8 hours.
+S3. Lab test report: the Vento S measured 47 dB on its lowest setting.
+S4. Retailer listing: the Vento S cable is 1.5 metres long.
+S5. Independent review: the Vento S swept side to side in our test.
+S6. Brand advertisement: the Vento S is 'whisper quiet'.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Quieter than 40 dB on lowest setting | S3 | Yes. S3 is currently valid. |
+| R2. Must oscillate | S1, S5 | Yes. Both S1 and S5 are currently valid. |
+| R3. Must have a timer | S2 | Yes. S2 is currently valid. |
+
+Justification
+
+R1 is not met. The only source that addresses noise on the lowest setting for the exact product, the Vento S, is the lab test report S3. It is currently valid and records 47 dB on its lowest setting, which is above the 40 dB limit, so it explicitly shows that R1 is not met. S6 ("whisper quiet") is a brand advertisement with no measurement, so it cannot establish or contradict a dB threshold and is not relied on.
+
+R2 and R3 are met, but this does not change the outcome. S1 and S5 establish oscillation for the Vento S, and S2 establishes a timer of up to 8 hours. A single explicit failure of a requirement is enough for a Contradicted label, and the decision rests on S3 alone. S4 (cable length) is not relevant to any requirement.
+
+No source in the set has been withdrawn.
+
+RELIES_ON: S3
+DECISION: Contradicted
+
+----- USER -----
+Update: source S4 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules. Update your dependency table first, then give your current decision in the same output format.

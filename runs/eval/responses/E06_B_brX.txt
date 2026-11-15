@@ -1,0 +1,22 @@
+Dependency table (updated)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1 (works with a wired 3.5 mm connection) | S5 | Yes |
+| R2 (folds for travel) | S6 | Yes |
+| R3 (battery life at least 30 hours) | S3, S4 | Yes, Yes |
+
+Justification
+
+S2 has been withdrawn, so it is no longer usable as evidence. Withdrawal does not make its content false, but it is also not counted. S2 was never used for any requirement: it concerned the companion app's equaliser, which none of R1 to R3 covers. The table is therefore unchanged, and the withdrawal removes no support.
+
+R1 is still established directly for the exact product named. S5 states that the Sonvia H40 includes a 3.5 mm audio cable and has a 3.5 mm jack on the left ear cup. S1 remains excluded because it concerns the earlier Sonvia H30.
+
+R2 is still established directly. S6 states that the Sonvia H40 ear cups fold flat into the headband.
+
+R3 is still established by specific measurements that meet the 30-hour threshold by simple comparison. S3 reports 35 hours in an independent battery test, and S4 reports 38 hours in a lab test. Either source alone is sufficient.
+
+Every requirement remains established by currently valid sources, so the decision is unchanged. This is a finding of support only; it is not a claim that the product is the best choice.
+
+RELIES_ON: S3,S4,S5,S6
+DECISION: Supported

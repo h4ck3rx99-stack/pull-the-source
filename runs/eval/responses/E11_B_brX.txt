@@ -1,0 +1,13 @@
+Dependency table (updated)
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (user weight at least 120 kg) | S6 | Yes. S6 is a certification document stating the Sedda Flex is certified for a user weight of 136 kg, and 136 is at least 120.
+R2 (seat adjusts down to 42 cm or lower) | S2 (S5 corroborates) | Yes. S2 is an independent review measuring the lowest Sedda Flex seat height at 41 cm, and 41 is at or below 42. S5 is also currently valid and gives a range starting at 40 cm.
+R3 (adjustable armrests) | S1 | Yes. S1 is the product page stating the Sedda Flex armrests adjust in height and width.
+
+Justification
+
+S3 has been withdrawn, so it is no longer usable as evidence. No requirement depended on S3: its only content (single-box shipping) bears on none of R1 to R3, and the withdrawal does not change any other source. S4 ("feels sturdy") likewise bears on none of the requirements. Each requirement remains established for the exact product named in the recommendation by a currently valid source, using a stated fact or a measurement that meets the threshold by simple comparison. R1 rests on S6 (136 kg against a 120 kg minimum). R2 rests on S2 (41 cm measured against a 42 cm maximum). R3 rests on S1. No source is contradicted. Because every requirement is still established and none is shown to fail, the recommendation remains supported.
+
+RELIES_ON: S1,S2,S6
+DECISION: Supported

@@ -1,0 +1,16 @@
+{
+ "A": {
+  "n": 12,
+  "initial_names_exactly_one_of_redundant_pair": 10,
+  "initial_names_both": 2,
+  "withdrawn_redundant_source_was_named": 8,
+  "of_those_kept_supported_and_named_other": 8
+ },
+ "B": {
+  "n": 12,
+  "initial_names_exactly_one_of_redundant_pair": 10,
+  "initial_names_both": 2,
+  "withdrawn_redundant_source_was_named": 8,
+  "of_those_kept_supported_and_named_other": 7
+ }
+}

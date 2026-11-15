@@ -1,0 +1,12 @@
+With S6 withdrawn, R1 is no longer established. Withdrawal does not make S6's content false, but S6 is no longer usable as evidence.
+
+R1 (user weight of at least 120 kg): No remaining valid source gives a weight rating for the Sedda Flex. S5 is a seat height range, S1 covers armrests, S2 covers seat height, S3 covers packaging, and S4 is a vague customer comment. None of them states or measures a rated user weight, so R1 is not established.
+
+R2 (seat adjusts down to 42 cm or lower): Still established by S2, which measured the lowest seat height at 41 cm. S5 agrees but is not needed.
+
+R3 (adjustable armrests): Still established by S1, which states the armrests adjust in height and width.
+
+No currently valid source shows R1 is unmet. The only weight figure was in S6, which is now withdrawn, so the answer is not Contradicted. Because R1 is not established, the recommendation is not Supported.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

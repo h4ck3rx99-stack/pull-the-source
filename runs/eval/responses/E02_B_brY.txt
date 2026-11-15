@@ -1,0 +1,14 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Must include a rain cover | S4 | Yes. S4 is a currently valid packing list stating that every Tarn 28 ships with a detachable rain cover. |
+| R2. Must weigh under 1.2 kg | S6 (S1 withdrawn, so not usable) | Yes. S6 is a currently valid retailer listing stating the Tarn 28 weighed 1.05 kg on the shop scale, which is below 1.2 kg. S1 (1.08 kg) is withdrawn and no longer counts as evidence. |
+| R3. Must fit a 16-inch laptop | S2 | Yes. S2 is a currently valid retailer measurement stating the Tarn 28 laptop sleeve accepts laptops up to 16.2 inches, which covers a 16-inch laptop. |
+
+Decision
+
+S1 has been withdrawn, so it can no longer support R2. That withdrawal does not show that the 1.08 kg figure is false, but the rules do not allow it to be used. R2 is still established, because S6 gives a specific measurement for the exact product (1.05 kg) that is under 1.2 kg by simple comparison. S6 is currently valid, and nothing says it has been withdrawn. R1 (S4) and R3 (S2) are unchanged, and both remain established by currently valid sources. S3 ("laptop-friendly") is vague and is not relied on. S5 concerns a sternum strap and is irrelevant to the requirements. Every requirement is still established by currently valid sources, so the recommendation remains supported.
+
+RELIES_ON: S2,S4,S6
+DECISION: Supported

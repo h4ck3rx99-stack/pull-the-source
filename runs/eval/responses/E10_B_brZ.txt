@@ -1,0 +1,16 @@
+Dependency table (updated for S5 withdrawal)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Battery at least 20 hours in GPS mode | S4 (lab test: 26 hours in GPS mode, Pacer V3) | Yes |
+| R2. Water resistant to at least 50 m | S5 (specification sheet: rated 50 m, 5 ATM, Pacer V3). S2 is about the separate Pacer V3 Dive model and does not count. | No. S5 is withdrawn and no longer usable as evidence. No other valid source establishes this for the Pacer V3. |
+| R3. Built-in GPS | S1 (product page: Pacer V3 has a built-in GPS receiver) | Yes |
+
+Justification
+
+R2 is no longer established. Its only source for the exact Pacer V3 was S5, which is withdrawn. S2 rates the Pacer V3 Dive, a different model, so it cannot establish R2 for the Pacer V3. Withdrawal does not make S5's content false, but the rules bar using it as evidence. No currently valid source explicitly shows that R2 is not met, so the label cannot be Contradicted. Because R2 is not established, the recommendation is not Supported. The label is therefore Insufficient evidence.
+
+R1 (S4, 26 hours) and R3 (S1) are still established by valid sources. S6 (24 hours with GPS on) would also meet R1 but was not needed. S3 bears on no requirement. The label turns on the R2 gap, so S1 and S4 are listed only as the valid sources behind the requirements that remain met.
+
+RELIES_ON: S1,S4
+DECISION: Insufficient evidence

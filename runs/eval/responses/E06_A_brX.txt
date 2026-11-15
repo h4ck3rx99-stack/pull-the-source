@@ -1,0 +1,10 @@
+Justification: With S2 withdrawn, the decision rests on S3, S4, S5 and S6, and each requirement is still established for the Sonvia H40 by a currently valid source. S2 (companion app equaliser) bore on no requirement, so its withdrawal changes nothing. S1 concerns the earlier H30 and was never used.
+
+R1 (wired 3.5 mm connection): S5 states that the Sonvia H40 has a 3.5 mm jack on the left ear cup and includes a 3.5 mm audio cable.
+R2 (folds for travel): S6, the H40 product page, states that the ear cups fold flat into the headband.
+R3 (battery life of at least 30 hours): S3 reports 35 hours in an independent battery test, and S4 reports 38 hours in a lab test. Both exceed the 30-hour threshold for the H40.
+
+No currently valid source shows a requirement unmet, so the recommendation remains supported.
+
+RELIES_ON: S3, S4, S5, S6
+DECISION: Supported

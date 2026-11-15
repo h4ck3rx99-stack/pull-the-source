@@ -1,0 +1,14 @@
+Justification
+
+R1 (folds flat) is established for the Estra 10 by S3, which states that the Estra 10 folds flat to 1 cm thick.
+
+R3 (under 400 g) is established for the Estra 10 by S2, which gives its weight as 310 g. S5 gives 320 g, which is also under 400 g, so it agrees with S2 rather than contradicting it. S5 is labelled an independent review but speaks of "our" Estra 10, so I give it no weight beyond that agreement.
+
+R2 (holds a tablet in portrait) is not established for the Estra 10. S1 says the Estra 12 holds tablets in portrait and landscape, but the Estra 12 is a different product, so S1 cannot establish anything about the Estra 10. No currently valid source says the Estra 10 fails in portrait, so no requirement is contradicted.
+
+S4 (colour) bears on none of the requirements.
+
+Because R2 is not established for the exact product recommended, the recommendation is not Supported. Because no currently valid source shows a requirement is unmet, it is not Contradicted.
+
+RELIES_ON: S2,S3
+DECISION: Insufficient evidence

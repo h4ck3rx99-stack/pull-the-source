@@ -1,0 +1,53 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Sam should buy the Corvin U9 bike lock."
+
+Sam's requirements
+R1. Its shackle must fit around a frame tube 5 cm wide.
+R2. It must weigh under 1.5 kg.
+R3. It must include a frame mount.
+
+Sources (all currently valid)
+S1. Specification sheet: the Corvin U9 weighs 1.3 kg.
+S2. Product page: the Corvin U9 is supplied with three keys.
+S3. Specification sheet: the Corvin U9 shackle has an internal width of 9 cm.
+S4. Independent review: the Corvin U9 closed around a 6 cm frame tube with room to spare.
+S5. Box contents list: the Corvin U9 comes with a frame mount.
+S6. Forum post: one rider calls the Corvin U9 'not too heavy'.
+
+Output format
+Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Justification
+
+R1 (shackle fits a 5 cm frame tube): S4 is an independent review of the Corvin U9 itself, reporting that it closed around a 6 cm frame tube with room to spare. A 6 cm tube is wider than the 5 cm threshold, so this meets the requirement by direct comparison. S3, the Corvin U9 specification sheet giving a 9 cm internal shackle width, points the same way.
+
+R2 (under 1.5 kg): S1, the Corvin U9 specification sheet, gives a weight of 1.3 kg, which is below 1.5 kg.
+
+R3 (includes a frame mount): S5, the Corvin U9 box contents list, states that the lock comes with a frame mount.
+
+S2 (three keys) does not bear on any requirement. S6 ("not too heavy") is a vague subjective remark and does not give a measurement, so it is not used.
+
+All three requirements are established for the exact product named in the recommendation by currently valid sources, and no source is withdrawn. The recommendation is therefore supported.
+
+RELIES_ON: S1, S3, S4, S5
+DECISION: Supported
+
+----- USER -----
+Update: source S2 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules and give your current decision in the same output format.

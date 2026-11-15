@@ -1,0 +1,8 @@
+Justification:
+R1 (battery at least 20 hours in GPS mode) is established for the Pacer V3 by S4, the lab test report, which records 26 hours in GPS mode. S6, the independent review, also records 24 hours with GPS on, which is consistent with this but not needed for the decision.
+R2 (water resistance of at least 50 m) is established by S5, the specification sheet, which rates the Pacer V3 at 50 m (5 ATM). This meets the threshold exactly. S2 gives 100 m but concerns the separate Pacer V3 Dive model, so it does not count.
+R3 (built-in GPS) is established by S1, the product page, which states the Pacer V3 has a built-in GPS receiver. S3 is irrelevant to the requirements.
+No source has been withdrawn, so all cited sources are currently valid. Every requirement is established for the exact product named, so the recommendation is supported.
+
+RELIES_ON: S1,S4,S5
+DECISION: Supported

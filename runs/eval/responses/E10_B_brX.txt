@@ -1,0 +1,20 @@
+Dependency table (updated for S4 withdrawal)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Battery at least 20 hours in GPS mode | S6 (independent review: Pacer V3 lasted 24 hours with GPS on). S4 is no longer usable. | S6: Yes. S4: No, withdrawn, so it is not used as evidence. |
+| R2. Water resistant to at least 50 m | S5 (specification sheet: Pacer V3 rated 50 m, 5 ATM) | Yes |
+| R3. Built-in GPS | S1 (product page: Pacer V3 has a built-in GPS receiver) | Yes |
+
+Justification
+
+R1: S4 has been withdrawn, so it can no longer count as evidence. The withdrawal does not show that its 26-hour result was false, but the requirement must now rest on another source. S6 is an independent review that names the Pacer V3 and reports 24 hours with GPS on. 24 is at least 20, so the threshold is met by simple comparison. The requirement is therefore established by a currently valid source.
+
+R2: S5 is the specification sheet for the Pacer V3 and rates it at 50 m. 50 is at least 50, so the threshold is met. S2 is still not used, because it rates the separate Pacer V3 Dive model to 100 m.
+
+R3: S1 is the Pacer V3 product page and states that it has a built-in GPS receiver. This directly establishes the requirement.
+
+S3 (strap colours) bears on none of the requirements. Every requirement is now established by currently valid sources for the exact product named in the recommendation. No currently valid source shows that a requirement is not met, so the label is Supported.
+
+RELIES_ON: S1,S5,S6
+DECISION: Supported

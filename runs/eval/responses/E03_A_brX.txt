@@ -1,0 +1,14 @@
+With S3 withdrawn, I re-checked each requirement against the remaining valid sources.
+
+R1 (arm reach of at least 40 cm): S1, a specification sheet, gives the Lumet Arc arm extension as 46 cm. That meets the 40 cm threshold by simple comparison, and S1 is unaffected by the withdrawal.
+
+R2 (USB-C charging port): S4, a product page, gives one USB-C charging port (15 W) on the Lumet Arc base. S5 concerns the Lumet Arc Pro, a different model, so it does not count.
+
+R3 (colour temperature adjustable down to 2700 K): S3 is no longer usable. S2, an independent review, measured the Lumet Arc at 2700 K on its warmest setting. That is a specific measurement for the exact product that equals the 2700 K threshold, so it meets the requirement by simple comparison. S2 is now the sole basis for R3, and it is sufficient on its own.
+
+S6 (warranty) concerns no stated requirement and is not used.
+
+No currently valid source shows that any requirement is not met, so the label is Supported. Every requirement is still established, and withdrawing S3 does not show that its content was false.
+
+RELIES_ON: S1, S2, S4
+DECISION: Supported

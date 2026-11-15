@@ -1,0 +1,22 @@
+Dependency table
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Grind timer | S6 | Yes |
+| R2. Hopper holds at least 200 g | S1 | Yes |
+| R3. Grinds fine enough for espresso | S2 | Yes |
+
+Justification
+
+S4 has been withdrawn, so it can no longer be used as evidence. It was never a dependency of any requirement: it only stated a matte white finish, which concerns no requirement. Removing it therefore leaves every requirement's support unchanged.
+
+R1 is still established directly for the Mola G1. The user manual (S6) states that the grind timer is adjustable from 5 to 60 seconds, so the product has a grind timer.
+
+R2 is still established by a specific measurement that clears the threshold by simple comparison. The specification sheet (S1) gives the Mola G1 hopper capacity as 250 g, which is at least 200 g. S5 is not needed for the decision.
+
+R3 is still established by a lab test result for the Mola G1 itself. At setting 3 it produced an espresso-fine grind that pulled a standard espresso shot (S2).
+
+S3 ("for every brew style") is vague packaging copy and is not relied on. No currently valid source shows any requirement is unmet, so the answer is not Contradicted. Every requirement is established by currently valid sources for the exact product named, so the decision remains Supported.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported

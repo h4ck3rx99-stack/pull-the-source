@@ -1,0 +1,49 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source establishes it for the exact product named in the recommendation, either by stating it directly or by giving a specific measurement, rating or test result that meets the stated threshold by simple comparison. Vague descriptions and sources about other products or models do not establish a requirement.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Ruth should buy the Sedda Flex office chair."
+
+Ruth's requirements
+R1. It must be rated for a user weight of at least 120 kg.
+R2. Its seat must adjust down to 42 cm or lower.
+R3. It must have adjustable armrests.
+
+Sources (all currently valid)
+S1. Product page: the Sedda Flex armrests adjust in height and width.
+S2. Independent review: we measured the lowest Sedda Flex seat height at 41 cm.
+S3. Retailer listing: the Sedda Flex ships in a single box.
+S4. Customer comment: 'the Sedda Flex feels sturdy'.
+S5. Specification sheet: the Sedda Flex seat height range is 40 to 52 cm.
+S6. Certification document: the Sedda Flex is certified for a user weight of 136 kg.
+
+Output format
+Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Each requirement is established by a currently valid source that names the Sedda Flex directly and meets the threshold by simple comparison.
+
+R1 (user weight of at least 120 kg): S6 certifies the Sedda Flex for a user weight of 136 kg, and 136 is at least 120.
+R2 (seat adjusts down to 42 cm or lower): S2 is an independent review that measured the lowest Sedda Flex seat height at 41 cm, and 41 is at most 42. S5 gives a 40 cm minimum, which agrees but is not needed.
+R3 (adjustable armrests): S1 states that the Sedda Flex armrests adjust in height and width.
+
+S3 (single-box shipping) and S4 (a customer saying the chair feels sturdy) do not bear on any requirement. No source shows a requirement unmet, so the answer is not Contradicted.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported
+
+----- USER -----
+Update: source S2 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules and give your current decision in the same output format.

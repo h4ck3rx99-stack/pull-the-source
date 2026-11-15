@@ -1,0 +1,10 @@
+S3 was never used as evidence for any requirement, so withdrawing it changes nothing. The decision still rests on the same three requirements, each established by a currently valid source that names the Sedda Flex directly.
+
+R1 (user weight of at least 120 kg): S6 certifies the Sedda Flex for a user weight of 136 kg, and 136 is at least 120.
+R2 (seat adjusts down to 42 cm or lower): S2 measured the lowest Sedda Flex seat height at 41 cm, and 41 is at most 42. S5 gives a 40 cm minimum, which agrees but is not needed.
+R3 (adjustable armrests): S1 states that the Sedda Flex armrests adjust in height and width.
+
+S4 (a customer saying the chair feels sturdy) does not bear on any requirement, and no currently valid source shows a requirement unmet, so the answer is not Contradicted.
+
+RELIES_ON: S1, S2, S6
+DECISION: Supported

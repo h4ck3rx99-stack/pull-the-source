@@ -1,0 +1,8 @@
+Justification:
+R1 (rain cover): S4 still states that every Tarn 28 ships with a detachable rain cover. Established.
+R2 (under 1.2 kg): S1 gives a measured weight of 1.08 kg and S6 gives 1.05 kg for the Tarn 28. Both are under 1.2 kg by simple comparison. Established.
+R3 (fits 16-inch laptop): S2 has been withdrawn and can no longer be used as evidence. S3 ("laptop-friendly") is vague and does not establish a size fit. S5 is irrelevant. No currently valid source gives a fit measurement for a 16-inch laptop, and none shows that the Tarn 28 cannot take one. Not established, not contradicted.
+Because R3 is not established and no valid source contradicts it, the decision is Insufficient evidence rather than Supported or Contradicted. The valid sources do not justify the recommendation.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

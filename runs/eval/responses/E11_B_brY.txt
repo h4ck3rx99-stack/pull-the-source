@@ -1,0 +1,13 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (user weight at least 120 kg) | S6 | No. S6 has been withdrawn, so it is no longer usable as evidence. No other valid source states or measures a weight rating for the Sedda Flex. S4 ("feels sturdy") is vague and does not establish a rating.
+R2 (seat adjusts down to 42 cm or lower) | S2 (S5 corroborates) | Yes. S2 is an independent review measuring the lowest Sedda Flex seat height at 41 cm, and 41 is at or below 42.
+R3 (adjustable armrests) | S1 | Yes. S1 is the product page stating the Sedda Flex armrests adjust in height and width.
+
+Justification
+
+R1 is no longer established. Its only source, S6, is withdrawn, and withdrawal does not show that the 136 kg figure is false, so S6 cannot be used either way. No valid source explicitly shows that the weight requirement is not met, so nothing contradicts the recommendation. Because R1 lacks a currently valid establishing source, the recommendation is not Supported. R2 (S2) and R3 (S1) remain established, but they do not change the outcome, since the missing R1 evidence alone prevents a Supported decision. The decision therefore rests on the absence of valid evidence for R1 and does not depend on any valid source.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

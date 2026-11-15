@@ -1,0 +1,21 @@
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (arm reaches at least 40 cm) | S1 | Yes
+R2 (USB-C charging port) | S4 | No (S4 has been withdrawn and is no longer usable as evidence)
+R3 (colour temperature adjustable down to 2700 K) | S3 (S2 corroborates) | Yes
+
+Justification
+
+R1 is still established by S1, a specification sheet for the Lumet Arc, which gives the arm extension as 46 cm. 46 cm meets the 40 cm threshold by simple comparison.
+
+R2 is no longer established. Its only source for the Lumet Arc was S4, the product page stating one USB-C charging port (15 W), and S4 is withdrawn. Withdrawal removes S4 as evidence, although it does not show that S4 was false. S5 describes the Lumet Arc Pro, a different product, so it cannot establish R2 for the Lumet Arc. Nothing else in the valid sources mentions a USB-C port on the Lumet Arc, so R2 has no currently valid evidence.
+
+R3 is still established by S3, a specification sheet for the Lumet Arc, which states the colour temperature adjusts from 2700 K to 6000 K. S2 corroborates this but is not needed.
+
+S6 (two-year warranty) concerns no requirement. No currently valid source explicitly shows that any requirement is unmet. S5 does not count, because it concerns the Pro model. So the answer is not Contradicted. Because R2 is not established by any currently valid source for the exact product, the recommendation is not Supported.
+
+The decision does not turn on S1 or S3. Neither source is needed to reach Insufficient evidence, because the gap in R2 alone prevents Supported.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

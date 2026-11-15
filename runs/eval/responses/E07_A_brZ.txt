@@ -1,0 +1,4 @@
+Justification: With S2 withdrawn, R3 (dishwasher-safe jar) is no longer established by any currently valid source. S1 says only that the Pulso 600 is 'easy to clean', which is vague and does not establish dishwasher safety for the jar. S6 concerns the power cord and no requirement. Nothing currently valid shows R3 is not met, so Contradicted does not apply. R1 remains established by the lab test report (86 dB at top speed, below 90 dB; S5), and R2 remains established by the specification sheet (1.75 litres, at least 1.5 litres; S3). The review's 1.7 litre fill (S4) is consistent with R2 but is not needed. Because R3 is not established, not every requirement is met by currently valid sources, so the label is Insufficient evidence. Withdrawing S2 does not show that its dishwasher statement is false.
+
+RELIES_ON: S3,S5
+DECISION: Insufficient evidence

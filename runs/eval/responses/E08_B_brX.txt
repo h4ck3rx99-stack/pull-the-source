@@ -1,0 +1,20 @@
+Dependency table (updated for S2 withdrawal)
+
+| Requirement | Source IDs it depends on | Is each of those sources currently valid? |
+|---|---|---|
+| R1. Weighs under 3 kg | S5 (S6 also gives 2.7 kg, but is not needed) | Yes. S5 is currently valid. |
+| R2. Built-in combination lock | S3 | Yes. S3 is currently valid. |
+| R3. External size within 55 x 40 x 20 cm including wheels | S2 only (S4 covers the Marlo Cabin 50, a different model, so it cannot be used) | No. S2 has been withdrawn and is no longer usable as evidence. No other currently valid source gives the external size of the Marlo Cabin 55. |
+
+Justification
+
+R1 and R2 are still established. S5 is a specification sheet for the Marlo Cabin 55 giving 2.6 kg, which is under 3 kg. S3 is a product page for the Marlo Cabin 55 stating a built-in three-digit combination lock.
+
+R3 is no longer established. Its only supporting source, S2, has been withdrawn. Withdrawal does not show that S2's measurement was false, but under the rules S2 can no longer be used as evidence. S4 gives dimensions for the Marlo Cabin 50, which is a different product and does not count for the Marlo Cabin 55. S1 concerns the lining and S6 concerns weight, so neither gives external size.
+
+Because R3 lacks any currently valid source for the exact product, the recommendation is not Supported. No currently valid source explicitly shows that R3 is not met, so Contradicted does not apply. The result is Insufficient evidence, which is always a permitted answer.
+
+The label rests on the gap in R3. S3 and S5 are valid and establish R1 and R2, but they do not drive the label, so no currently valid source is the basis of the decision.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

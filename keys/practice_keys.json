@@ -1,0 +1,144 @@
+[
+ {
+  "id": "P01",
+  "kind": "standard",
+  "sources": {
+   "S1": {
+    "role": "K",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S3": {
+    "role": "E",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Supported",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S2",
+    "gold": "Supported"
+   },
+   "Y": {
+    "type": "redundant",
+    "withdraw": "S6",
+    "gold": "Supported"
+   },
+   "Z": {
+    "type": "essential",
+    "withdraw": "S3",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "P02",
+  "kind": "insufficient",
+  "sources": {
+   "S1": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   },
+   "S2": {
+    "role": "D1",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "K",
+    "supports": "R1",
+    "contradicts": null
+   },
+   "S4": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D2",
+    "supports": "R3",
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Insufficient evidence",
+  "branches": {
+   "X": {
+    "type": "irrelevant",
+    "withdraw": "S4",
+    "gold": "Insufficient evidence"
+   }
+  }
+ },
+ {
+  "id": "P03",
+  "kind": "contradicted",
+  "sources": {
+   "S1": {
+    "role": "D1",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S2": {
+    "role": "K",
+    "supports": "R3",
+    "contradicts": null
+   },
+   "S3": {
+    "role": "X",
+    "supports": null,
+    "contradicts": "R1"
+   },
+   "S4": {
+    "role": "I",
+    "supports": null,
+    "contradicts": null
+   },
+   "S5": {
+    "role": "D2",
+    "supports": "R2",
+    "contradicts": null
+   },
+   "S6": {
+    "role": "N",
+    "supports": null,
+    "contradicts": null
+   }
+  },
+  "initial_gold": "Contradicted",
+  "branches": {
+   "X": {
+    "type": "contradiction_withdrawn",
+    "withdraw": "S3",
+    "gold": "Insufficient evidence"
+   },
+   "Y": {
+    "type": "irrelevant",
+    "withdraw": "S4",
+    "gold": "Contradicted"
+   }
+  }
+ }
+]

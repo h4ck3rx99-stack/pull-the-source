@@ -1,0 +1,12 @@
+{
+ "frozen_utc": "2026-11-15T08:17:19+00:00",
+ "sha256": {
+  "build_dataset.py": "faee13985b4728526aa8ff034dedc4f7f2c3b861d82bdb80a032087afd384d30",
+  "pts.py": "ae2384a91e7ab6ce40bfb3bbbd55a7d5de82f5261f1ff1c23eb845699ba2b943",
+  "PROTOCOL.md": "fc8ae6e7c7da32935d3e3a6e3d92c10bd92631c029da3bfb219984948fa3ced0",
+  "data/eval_scenarios.json": "8d002d2c973a5113312d1363328761709745098575458d7bdf9dcb5dac2de050",
+  "keys/eval_keys.json": "62a27f546bb6ecb5c810bcae50fd0243e4dbf19b9b209b6ba3ef4d64b47dfa4f",
+  "data/practice_scenarios.json": "4f72b088b1fc0d89276054f1e3d034fae976f91faac8c383887d4c613733ea8e",
+  "keys/practice_keys.json": "16e5695958d8cb28052251dbf4b4ab399216bf344a1c81e70582d07a9e247348"
+ }
+}

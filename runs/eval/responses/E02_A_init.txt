@@ -1,0 +1,8 @@
+Justification:
+R1 (rain cover): S4 states directly that every Tarn 28 ships with a detachable rain cover. Established.
+R2 (under 1.2 kg): S1 gives a measured weight of 1.08 kg for the Tarn 28 sample, which is under 1.2 kg by simple comparison. S6 (1.05 kg) corroborates this. Established.
+R3 (fits 16-inch laptop): S2 states the Tarn 28 laptop sleeve accepts laptops up to 16.2 inches, so a 16-inch laptop fits by simple comparison. Established. S3 ("laptop-friendly") is vague and does not establish the requirement. S5 is irrelevant to the requirements.
+All three requirements are established by currently valid sources for the exact product named, so the recommendation is supported.
+
+RELIES_ON: S1,S2,S4
+DECISION: Supported

@@ -1,0 +1,286 @@
+{
+ "conditions": {
+  "A": {
+   "initial_correct": 1,
+   "initial_total": 1,
+   "initial_wrong": [],
+   "all_cases": {
+    "n_scenarios": 1,
+    "essential_correct": 1,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 1,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 1,
+    "redundant_wrong": 0,
+    "post_correct": 3,
+    "post_total": 3,
+    "scenarios_all3_correct": 1
+   },
+   "initially_correct_cases": {
+    "n_scenarios": 1,
+    "essential_correct": 1,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 1,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 1,
+    "redundant_wrong": 0,
+    "post_correct": 3,
+    "post_total": 3,
+    "scenarios_all3_correct": 1
+   }
+  },
+  "B": {
+   "initial_correct": 1,
+   "initial_total": 1,
+   "initial_wrong": [],
+   "all_cases": {
+    "n_scenarios": 1,
+    "essential_correct": 1,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 1,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 1,
+    "redundant_wrong": 0,
+    "post_correct": 3,
+    "post_total": 3,
+    "scenarios_all3_correct": 1
+   },
+   "initially_correct_cases": {
+    "n_scenarios": 1,
+    "essential_correct": 1,
+    "essential_retained_supported": 0,
+    "essential_other": 0,
+    "irrelevant_correct": 1,
+    "irrelevant_unnecessary_withdrawal": 0,
+    "redundant_correct_retention": 1,
+    "redundant_wrong": 0,
+    "post_correct": 3,
+    "post_total": 3,
+    "scenarios_all3_correct": 1
+   }
+  }
+ },
+ "per_call": [
+  {
+   "scenario": "P01",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "A",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "A",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "B",
+   "stage": "brY",
+   "type": "redundant",
+   "gold": "Supported",
+   "decision": "Supported",
+   "correct": true
+  },
+  {
+   "scenario": "P01",
+   "condition": "B",
+   "stage": "brZ",
+   "type": "essential",
+   "gold": "Insufficient evidence",
+   "decision": "Insufficient evidence",
+   "correct": true
+  },
+  {
+   "scenario": "P02",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P02",
+   "condition": "A",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P02",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P02",
+   "condition": "B",
+   "stage": "brX",
+   "type": "irrelevant",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "A",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Contradicted",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "A",
+   "stage": "brX",
+   "type": "contradiction_withdrawn",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "A",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Contradicted",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "B",
+   "stage": "init",
+   "type": "initial",
+   "gold": "Contradicted",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "B",
+   "stage": "brX",
+   "type": "contradiction_withdrawn",
+   "gold": "Insufficient evidence",
+   "decision": "MISSING",
+   "correct": false
+  },
+  {
+   "scenario": "P03",
+   "condition": "B",
+   "stage": "brY",
+   "type": "irrelevant",
+   "gold": "Contradicted",
+   "decision": "MISSING",
+   "correct": false
+  }
+ ],
+ "paired_scenario_level_all3_correct": {
+  "both": 1,
+  "A_only": 0,
+  "B_only": 0,
+  "neither": 0,
+  "exact_sign_test_p_two_sided": 1.0
+ },
+ "reference_policies_not_model_runs": {
+  "always_insufficient": {
+   "initial_correct": 0,
+   "initial_total": 1,
+   "post_correct": 1,
+   "post_total": 3
+  },
+  "always_supported": {
+   "initial_correct": 1,
+   "initial_total": 1,
+   "post_correct": 2,
+   "post_total": 3
+  }
+ },
+ "exploratory_stated_dependencies": {
+  "A": {
+   "n": 1,
+   "stated_equals_key_support_set": 0,
+   "stated_includes_near_miss": 0,
+   "stated_includes_irrelevant": 0,
+   "stated_unparsed": 0,
+   "withdrawn_in_stated": {
+    "decision_changed": 1,
+    "decision_kept": 1
+   },
+   "withdrawn_not_in_stated": {
+    "decision_changed": 0,
+    "decision_kept": 1
+   }
+  },
+  "B": {
+   "n": 1,
+   "stated_equals_key_support_set": 0,
+   "stated_includes_near_miss": 0,
+   "stated_includes_irrelevant": 0,
+   "stated_unparsed": 0,
+   "withdrawn_in_stated": {
+    "decision_changed": 1,
+    "decision_kept": 1
+   },
+   "withdrawn_not_in_stated": {
+    "decision_changed": 0,
+    "decision_kept": 1
+   }
+  }
+ },
+ "set": "practice",
+ "n_calls_logged": 8,
+ "calls_missing_or_unparsed": []
+}

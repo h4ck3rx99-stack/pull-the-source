@@ -1,0 +1,60 @@
+Below is a conversation so far between a USER and you (the ASSISTANT). Write only the ASSISTANT's next reply.
+
+----- USER -----
+You are helping with a purchase decision in a fictional scenario. Decide whether the recommendation below is justified solely by the currently valid supplied sources.
+
+Rules
+1. Use only the supplied sources. Do not use outside knowledge or assumptions about the product.
+2. A requirement counts as established only if a currently valid source explicitly establishes it for the exact product named in the recommendation.
+3. Choose exactly one label:
+   - Supported: every requirement is established by currently valid sources.
+   - Contradicted: a currently valid source explicitly shows that a requirement is not met.
+   - Insufficient evidence: neither of the above.
+4. A source may later be withdrawn. A withdrawn source is no longer usable as evidence. Withdrawal does not show that what the source said is false.
+5. "Insufficient evidence" is always a permitted answer.
+
+Recommendation: "Kofi should buy the Estra 10 tablet stand."
+
+Kofi's requirements
+R1. It must fold flat.
+R2. It must hold a tablet in portrait orientation.
+R3. It must weigh under 400 g.
+
+Sources (all currently valid)
+S1. Product page: the Estra 12 holds tablets in portrait and landscape.
+S2. Specification sheet: the Estra 10 weighs 310 g.
+S3. Product page: the Estra 10 folds flat to 1 cm thick.
+S4. Retailer listing: the Estra 10 is sold in silver.
+S5. Independent review: our Estra 10 weighed 320 g.
+
+Output format
+First write a dependency table with one row per requirement and these columns: Requirement | Source IDs it depends on | Is each of those sources currently valid?
+Then decide. Give a brief justification, then end with exactly these two lines:
+RELIES_ON: <comma-separated IDs of the sources your decision depends on, or NONE>
+DECISION: <Supported | Contradicted | Insufficient evidence>
+
+----- ASSISTANT -----
+Dependency table
+
+Requirement | Source IDs it depends on | Is each of those sources currently valid?
+R1 (folds flat) | S3 | Yes. S3 is a currently valid product page and names the Estra 10 directly.
+R2 (holds tablet in portrait) | None. S1 covers the Estra 12, not the Estra 10, so it does not establish R2 for the named product. | Not applicable. No currently valid source establishes R2 for the Estra 10.
+R3 (weighs under 400 g) | S2 | Yes. S2 is a currently valid specification sheet and gives the Estra 10 weight as 310 g.
+
+Justification
+
+The recommendation names the Estra 10 tablet stand, so only sources that explicitly concern the Estra 10 can establish a requirement.
+
+R1 is established by S3, which states that the Estra 10 folds flat to 1 cm thick.
+
+R3 is established by S2, which states that the Estra 10 weighs 310 g, under the 400 g limit. S5 also reports a weight under 400 g (320 g), but it is not needed and is not relied on.
+
+R2 is not established. The only source about portrait orientation is S1, and it describes the Estra 12, a different product. Nothing in the supplied sources shows that the Estra 10 holds a tablet in portrait orientation. S1 does not contradict the requirement for the Estra 10 either, so the Contradicted label does not apply. S4 (colour) is irrelevant to the requirements.
+
+All sources are currently valid, so no withdrawal issue arises. Because R2 is neither established nor contradicted for the exact product named, the recommendation is not justified by the supplied sources. The label is Insufficient evidence.
+
+RELIES_ON: S2,S3
+DECISION: Insufficient evidence
+
+----- USER -----
+Update: source S4 has been withdrawn and is no longer valid. All other sources are unchanged. Apply the same rules. Update your dependency table first, then give your current decision in the same output format.

@@ -1,0 +1,12 @@
+Justification:
+
+With S6 withdrawn, it can no longer be used as evidence. R1 (switches off if tipped over) is now not established for the Calda Mini by any currently valid source. S5 states tip-over protection only for the Calda Tower, a different model, so it does not count. Nothing else in the supplied sources addresses tip-over behaviour for the Calda Mini. The withdrawal does not show that S6 was false, but the rules treat it as unusable, so the recommendation cannot be Supported.
+
+No currently valid source explicitly shows that R1 is not met. S5 covers another model and cannot be used to contradict the Calda Mini. So the outcome is not Contradicted.
+
+R2 (no more than 1500 W) remains established by S1, which rates the Calda Mini at 1200 W on its highest setting, and R3 (adjustable thermostat) remains established by S4. Those findings do not change the outcome, because R1 is still unestablished. S2 and S3 are not needed.
+
+Neither Supported nor Contradicted applies, so the decision is Insufficient evidence. The decision does not depend on the content of any particular source. It follows from the absence of any currently valid source establishing R1 for the exact product, so no source is relied on.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence

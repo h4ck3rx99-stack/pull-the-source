@@ -1,0 +1,10 @@
+R1 (under 3 kg): S5, the specification sheet, states that the Marlo Cabin 55 weighs 2.6 kg, which is under 3 kg. S6, the independent review, reports 2.7 kg empty for the Marlo Cabin 55, also under 3 kg. Established.
+
+R2 (built-in combination lock): S3, the product page, states that the Marlo Cabin 55 has a built-in three-digit combination lock. Established.
+
+R3 (external size within 55 x 40 x 20 cm including wheels): The only source that gave a size for the Marlo Cabin 55 was S2, and it is now withdrawn, so it can no longer be used as evidence. S1 concerns the lining pattern and does not bear on size. S4 measures the Marlo Cabin 50, a different model, so it cannot establish anything about the Cabin 55. No currently valid source states or measures the Cabin 55's external dimensions, so R3 is not established. No currently valid source shows that R3 is not met either, so this is not Contradicted.
+
+R1 and R2 are established, but R3 is not, so the recommendation is neither Supported nor Contradicted. The decision is Insufficient evidence.
+
+RELIES_ON: S3,S5,S6
+DECISION: Insufficient evidence

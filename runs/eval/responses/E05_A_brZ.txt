@@ -1,0 +1,4 @@
+Justification: With S2 withdrawn, no currently valid source establishes R1 for the Halden 2. S2 was the only source giving the Halden 2 floor width. S6 gives the Halden 3 floor as 180 cm, but it describes a different model and cannot establish R1. Nothing in the remaining sources shows the Halden 2 floor is narrower than 128 cm, so R1 is neither established nor contradicted. R2 is still established by S3 (two doors, one on each side), and R3 is still established by S4 (packed weight 2.2 kg, under 2.5 kg). S1 (2.3 kg) also falls under 2.5 kg but is not needed. S5 does not bear on any requirement. Withdrawal does not show that S2's 132 cm figure was false, but S2 can no longer be used as evidence. Because R1 is unestablished and no source contradicts the recommendation, the decision is Insufficient evidence.
+
+RELIES_ON: NONE
+DECISION: Insufficient evidence
