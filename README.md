@@ -58,7 +58,7 @@ It does **not** show that models handle retracted evidence well in general. Thes
 
 ## Watch the video
 
-A 2-minute walkthrough with voiceover: [video/Pull_the_Source_video.mp4](video/Pull_the_Source_video.mp4)
+A 3.5-minute walkthrough with voiceover: [video/Pull_the_Source_video.mp4](video/Pull_the_Source_video.mp4)
 
 ## Try the demo
 
