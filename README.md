@@ -56,6 +56,10 @@ The single miss (scenario E12, condition B) was an over-cautious withdrawal on a
 
 It does **not** show that models handle retracted evidence well in general. These cases are short and explicit, the prompt states the decision rule, and the withdrawal is announced plainly. One model, one sample per cell, 12 hand-built items. See the limitations appendix in `docs/REPORT_DRAFT.md` and `DEVIATIONS.md`.
 
+## Watch the video
+
+A 2-minute walkthrough with voiceover: [video/Pull_the_Source_video.mp4](video/Pull_the_Source_video.mp4)
+
 ## Try the demo
 
 Download `demo/pull_the_source_demo.html` and open it in a browser. It works offline. Pick a scenario, click **Withdraw** on a source, and it replays the model's recorded answer. Recorded model runs and answer-key-only views are labelled differently; there is no live-call mode.
